@@ -1,6 +1,6 @@
-## SysLinuxOS-Tools - repository APT
-## Installare come: /etc/apt/sources.list.d/syslinuxos-tools.sources
-## Richiede la chiave pubblica in: /usr/share/keyrings/syslinuxos-archive-keyring.gpg
+## SysLinuxOS-Tools - APT repository
+## Install as: /etc/apt/sources.list.d/syslinuxos-tools.sources
+## Requires the public key in: /usr/share/keyrings/syslinuxos-archive-keyring.gpg
 X-Repolib-Name: SysLinuxOS-Tools
 Types: deb
 URIs: https://fconidi.github.io/SysLinuxOS-Tools

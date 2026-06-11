@@ -5,5 +5,5 @@ Codename: tirreno
 Version: 13
 Architectures: amd64
 Components: main
-Description: SysLinuxOS Tools - repository APT ufficiale (pacchetti SysLinuxOS)
+Description: SysLinuxOS Tools - official APT repository (SysLinuxOS packages)
 SignWith: 5FADCAF45BC3FA1D
