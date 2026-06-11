@@ -1,0 +1,11 @@
+# SysLinuxOS-Tools - APT pinning
+# Installare come: /etc/apt/preferences.d/99-syslinuxos-tools.pref
+#
+# grub-btrfs: la build SysLinuxOS (4.14-1syslinuxosN) e' un override di quella
+# Debian. Senza pin, un aggiornamento Debian con versione numericamente piu'
+# alta (es. 4.14-2, 4.15-x) sostituirebbe la build SysLinuxOS.
+# Priority 1001 forza SEMPRE la versione dal repo SysLinuxOS (origine
+# o=SysLinuxOS), anche se cio' comporta un downgrade rispetto a Debian.
+Package: grub-btrfs
+Pin: release o=SysLinuxOS
+Pin-Priority: 1001

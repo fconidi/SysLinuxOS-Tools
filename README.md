@@ -46,9 +46,12 @@ sudo apt update
 | `syslinuxos-ring-conky` | Tema Conky ad anelli con auto-scaling |
 | `syslinuxos-snapshots` | Snapshot btrfs + integrazione GRUB |
 
-> **Nota su `grub-btrfs`**: e' un override della versione Debian
-> (`4.14-1syslinuxos1`). Per assicurarsi che apt preferisca questa, usare se
-> necessario un pin in `/etc/apt/preferences.d/` con priorita' > 500.
+> **Nota su `grub-btrfs`**: e' un override della versione Debian. Per evitare
+> che un aggiornamento Debian (versione numericamente piu' alta) lo sostituisca,
+> `install-repo.sh` installa un pin in `/etc/apt/preferences.d/99-syslinuxos-tools.pref`
+> (`Pin: release o=SysLinuxOS`, `Pin-Priority: 1001`) che forza sempre la build
+> SysLinuxOS. Solo `grub-btrfs` e' pinnato; gli altri pacchetti restano a
+> priorita' normale. File di riferimento: `client/syslinuxos-tools.pref`.
 
 ## Manutenzione (lato maintainer)
 

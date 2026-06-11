@@ -8,6 +8,7 @@ set -euo pipefail
 REPO_URL="https://fconidi.github.io/SysLinuxOS-Tools"
 KEYRING="/usr/share/keyrings/syslinuxos-archive-keyring.gpg"
 SOURCES="/etc/apt/sources.list.d/syslinuxos-tools.sources"
+PREFS="/etc/apt/preferences.d/99-syslinuxos-tools.pref"
 
 if [ "$(id -u)" -ne 0 ]; then
     echo "Esegui come root:  sudo $0" >&2
@@ -35,6 +36,15 @@ Suites: tirreno
 Components: main
 Architectures: amd64
 Signed-By: $KEYRING
+EOF
+
+echo "==> Scrivo il pin apt in $PREFS (grub-btrfs: build SysLinuxOS sempre preferita)"
+cat > "$PREFS" <<'EOF'
+# grub-btrfs: forza sempre la build SysLinuxOS (override di quella Debian),
+# anche se Debian offre una versione numericamente piu' alta.
+Package: grub-btrfs
+Pin: release o=SysLinuxOS
+Pin-Priority: 1001
 EOF
 
 echo "==> apt update"
