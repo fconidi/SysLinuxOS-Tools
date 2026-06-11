@@ -1,0 +1,21 @@
+Origin: SysLinuxOS
+Label: SysLinuxOS-Tools
+Suite: tirreno
+Codename: tirreno
+Version: 13
+Date: Thu, 11 Jun 2026 18:03:27 UTC
+Architectures: amd64
+Components: main
+Description: SysLinuxOS Tools - repository APT ufficiale (pacchetti SysLinuxOS)
+MD5Sum:
+ a87bf9f29611c7e4ee1bbf1fc99b16cf 7213 main/binary-amd64/Packages
+ abb9fde0027264f9e3c8ba77a6f461d6 3324 main/binary-amd64/Packages.gz
+ 3150c0306e257af7dfe4b45289100c90 188 main/binary-amd64/Release
+SHA1:
+ 01c6ac82310f3107ec0e004d76180740e9fe07d9 7213 main/binary-amd64/Packages
+ f3ce536a730305870de9d21c0e02da31135150c8 3324 main/binary-amd64/Packages.gz
+ fd356d5939790aaf99cf880d86a307bff95d2104 188 main/binary-amd64/Release
+SHA256:
+ af5c149914fc492faf921c204cee93f8e4e8131a9c0481ca27c0ce71d75b8b0b 7213 main/binary-amd64/Packages
+ 27f8b2f011aaa0954c506d533899e139390fe5e03c0480279d062ad71f33196e 3324 main/binary-amd64/Packages.gz
+ e4d22ab8a1f2890321676111376c335b63853807399fc40452d2088807a1bb3c 188 main/binary-amd64/Release

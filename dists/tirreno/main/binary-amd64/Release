@@ -1,0 +1,7 @@
+Archive: tirreno
+Version: 13
+Component: main
+Origin: SysLinuxOS
+Label: SysLinuxOS-Tools
+Architecture: amd64
+Description: SysLinuxOS Tools - repository APT ufficiale (pacchetti SysLinuxOS)

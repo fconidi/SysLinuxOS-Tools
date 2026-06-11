@@ -1,0 +1,164 @@
+Package: distroclone
+Version: 1.4.8
+Architecture: all
+Depends: bash, rsync, xorriso, mtools, syslinux-utils, syslinux-common, isolinux, imagemagick
+Recommends: yad, zenity, grub-efi-amd64, efibootmgr, calamares, calamares-settings-debian, os-prober, fdisk, live-boot, live-config, live-config-systemd
+Suggests: polkitd | policykit-1
+Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
+Homepage: https://www.syslinuxos.com
+Priority: optional
+Section: admin
+Filename: pool/main/d/distroclone/distroclone_1.4.8_all.deb
+Size: 2090484
+SHA256: 763a077cdf853575c876203a571d11d5aa553f9e508d008b82e4071c32722396
+SHA1: 1324fbaace807a52848a56289389247b24fa808e
+MD5sum: 033a7cad030d09ac978739fecfde3349
+Description: DistroClone - Universal Live ISO Builder
+ Create customized bootable live ISO images from any running
+ Debian-based system (Debian, Ubuntu, Linux Mint, Elementary OS,
+ SysLinuxOS, LMDE, and derivatives).
+ .
+ Features:
+  - Auto-detect distribution, version and desktop environment
+  - YAD/Zenity graphical interface with DC branding
+  - Calamares installer integration with custom branding
+  - UEFI and Legacy BIOS boot support
+  - Squashfs compression options (xz, lz4, xz+bcj)
+  - Real-time build log window
+  - Success/error completion dialogs
+  - Automatic cleanup of live packages after installation
+Installed-Size: 2624
+
+Package: distroclone-backup
+Version: 1.3.1
+Architecture: all
+Depends: yad, rsync, imagemagick
+Recommends: distroclone, btrfs-progs, snapper
+Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
+Priority: optional
+Section: admin
+Filename: pool/main/d/distroclone-backup/distroclone-backup_1.3.1_all.deb
+Size: 212864
+SHA256: e1528d31170b9858274b48fd7dc18a2d1498afc33a96d774cee4ec86d870b543
+SHA1: 8b3596a52c4c0fda9e022d02b0c4250ddfa61037
+MD5sum: d1fdc53981658b2f912f134aa36e58f5
+Description: DistroClone Backup & Restore Tool
+ Incremental rootfs backup and restore tool for Debian-based systems.
+ Companion tool for DistroClone.
+ .
+ v1.3 — Native snapper integration on btrfs cache filesystems.
+ Versioning of the rsync cache is managed via a dedicated snapper
+ config ("distroclone-backup"). On non-btrfs filesystems falls back
+ to plain rsync without versioning (no regression on ext4/xfs).
+ Without snapper installed, behaves as v1.2.2 (raw btrfs snapshots).
+ .
+ Supports: English, Italiano, Deutsch, Français, Español.
+Installed-Size: 308
+
+Package: grub-btrfs
+Version: 4.14-1syslinuxos1
+Architecture: all
+Depends: bash (>= 4.0), grub-common, grub2-common, btrfs-progs, gawk, util-linux
+Recommends: inotify-tools, snapper
+Suggests: timeshift
+Maintainer: SysLinuxOS Team <fconidi@gmail.com>
+Homepage: https://github.com/Antynea/grub-btrfs
+Installed-Size: 128
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub-btrfs/grub-btrfs_4.14-1syslinuxos1_all.deb
+Size: 31728
+SHA256: 0cdbf0e1be286e664df1acb77300379f68d82a262f275f4b74b4953b6d6149b7
+SHA1: 31290d535b3ba3abdad7dd09f5b07cf0d65e3f47
+MD5sum: 3b9c2c6a9a856df3d6ed963bea1c26a2
+Description: Include btrfs snapshots in GRUB boot menu
+ grub-btrfs improves GRUB by adding btrfs snapshots to the boot menu,
+ letting you boot directly into any snapshot from grub.
+ .
+ Auto-detects snapshots created by snapper, timeshift, or distroClone.
+ The grub-btrfsd daemon watches snapshot directories with inotify and
+ regenerates GRUB submenu on changes (separate file, no impact on main
+ grub.cfg until reboot).
+ .
+ SysLinuxOS-specific build for Debian trixie. Upstream version 4.14.
+
+Package: syslinuxos-ring-conky
+Version: 0.1.1
+Architecture: all
+Depends: conky-all, x11-xserver-utils
+Recommends: x11-utils
+Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
+Homepage: https://syslinuxos.com
+Installed-Size: 144
+Priority: optional
+Section: x11
+Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.1_all.deb
+Size: 26636
+SHA256: ca38976cc7d7c29a46c278f42f2430e094f5d2d11b0f2958dfa9f7edd759f05f
+SHA1: caa795e2f28c756ad91c689456473a909bac36c7
+MD5sum: c55bf7950628c0efab697a08d9b2e621
+Description: Tema Conky ad anelli per SysLinuxOS con auto-scaling
+ Tema Conky "ad anelli" (CPU, RAM, dischi, rete, orologio, batteria)
+ integrato nel menu System > Monitor di SysLinuxOS.
+ .
+ Fork di Auzia Conky di Zineddine SAIBI (GPL-3.0,
+ https://github.com/SZinedine/auzia-conky), a sua volta basato sul template
+ Namoudaj Conky dello stesso autore. Fork e packaging per SysLinuxOS a cura
+ di Franco Conidi (edmond) <fconidi@gmail.com> - https://syslinuxos.com -
+ https://francoconidi.it
+ .
+ Novita' del fork: rilevamento automatico della risoluzione dello schermo
+ (xrandr, fallback xdpyinfo) e ridimensionamento di finestra e disegno in
+ proporzione rispetto al progetto 1920x1080, tramite cairo_scale. A 1920x1080
+ il layout resta identico all'originale; a risoluzioni diverse il conky e'
+ proporzionato e leggibile. Override per i test: CONKY_RING_SCALE=<fattore>.
+ .
+ Include il servizio check_cpu.service che imposta automaticamente il numero
+ di core/thread della CPU al boot.
+
+Package: syslinuxos-snapshots
+Version: 0.3.12
+Architecture: all
+Depends: snapper (>= 0.10), grub-btrfs (>= 4.14), inotify-tools, btrfs-progs, util-linux
+Recommends: distroclone-backup
+Maintainer: SysLinuxOS Team <fconidi@gmail.com>
+Homepage: https://github.com/franco-conidi/syslinuxos
+Installed-Size: 44
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinuxos-snapshots/syslinuxos-snapshots_0.3.12_all.deb
+Size: 11816
+SHA256: 94a4c1b978afc96b65d5841da3496e942a27dd50c74d134d5c5838ddb0cf40d5
+SHA1: ebd251afeb10890641d62bd7d0003a6a6a55f01a
+MD5sum: 5303c5afd0f5ee662afa419086feecbd
+Description: Btrfs snapshots + GRUB integration for SysLinuxOS
+ Meta-package that integrates snapper, grub-btrfs and the syslinuxos-rollback
+ helper to provide automatic GRUB-bootable snapshots with rollback support.
+ .
+ On install it configures:
+   - snapper config 'root' (NUMBER_LIMIT=5, TIMELINE_DAILY=7)
+   - grub-btrfs submenu "SysLinuxOS — snapshots", LIMIT=8
+   - grub-btrfsd.service + snapper timers enabled
+ .
+ Provides /usr/bin/syslinuxos-rollback, a helper specific to the Debian-style
+ btrfs layout (upstream `snapper rollback` is not supported on Debian).
+ .
+ Snapshots boot to a text console (GRUB_BTRFS_SNAPSHOT_KERNEL_PARAMETERS=
+ systemd.unit=multi-user.target) instead of the graphical display manager,
+ giving a uniform recovery environment for MATE and GNOME: log in and run
+ syslinuxos-rollback. /etc/profile.d/syslinuxos-snapshot-recovery.sh shows the
+ rollback instructions at login when booted from a snapshot.
+ .
+ Provides /etc/grub.d/13_syslinuxos-btrfs-otheros, a grub-mkconfig helper that
+ detects other btrfs installs in subvolume @ layout (Debian #921004, #940710)
+ which upstream os-prober fails to identify. Disable with
+ GRUB_DISABLE_BTRFS_OTHEROS=true in /etc/default/grub.
+ .
+ Provides /etc/grub.d/14_syslinuxos-snapshots-otheros, a grub-mkconfig helper
+ that exposes snapshots of other SysLinuxOS installs via a chainloaded
+ "Advanced" submenu (configfile of the secondary's grub-btrfs.cfg). Disable
+ with GRUB_DISABLE_BTRFS_SNAPSHOTS_OTHEROS=true in /etc/default/grub.
+ .
+ Activates only if rootfs is btrfs. On ext4 the package installs cleanly
+ but prints a warning and does not touch the configuration.
+

@@ -1,0 +1,9 @@
+Origin: SysLinuxOS
+Label: SysLinuxOS-Tools
+Suite: tirreno
+Codename: tirreno
+Version: 13
+Architectures: amd64
+Components: main
+Description: SysLinuxOS Tools - repository APT ufficiale (pacchetti SysLinuxOS)
+SignWith: 5FADCAF45BC3FA1D
