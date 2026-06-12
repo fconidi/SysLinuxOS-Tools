@@ -74,9 +74,6 @@ git add -A && git commit -m "repo: update packages" && git push
 reprepro keeps a single version per package: including a newer version replaces
 the previous one.
 
-Package names must be **lowercase** (Debian Policy 5.6.1); if `reprepro` rejects
-a `.deb`, fix the `Package:` field in its control.
-
 ## License
 
 The repository metadata belongs to SysLinuxOS / Franco Conidi (edmond).
