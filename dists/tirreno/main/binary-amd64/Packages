@@ -106,7 +106,7 @@ Description: Include btrfs snapshots in GRUB boot menu
  SysLinuxOS-specific build for Debian trixie. Upstream version 4.14.
 
 Package: syslinuxos-ring-conky
-Version: 0.1.3
+Version: 0.1.4
 Architecture: all
 Depends: conky-all, x11-xserver-utils
 Recommends: x11-utils
@@ -115,11 +115,11 @@ Homepage: https://syslinuxos.com
 Installed-Size: 144
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.3_all.deb
-Size: 26668
-SHA256: 0146b9a43738191cccc01d4bd40316938d18985cb9e68281b27f64449c049177
-SHA1: 9dbe09a22dd1d4ae94840e240d892bf173048672
-MD5sum: 7a24a4d94424eae29531cfc9ed6a3f64
+Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.4_all.deb
+Size: 26948
+SHA256: a8e1911bbddb24901d808ff41fa51a67ea61669cdbf5f30ef7bf202de4c4d779
+SHA1: a45894fb65bc952dbe734933e30c31cd6d56b68b
+MD5sum: 1b0a632cfca099854ba2e7a4f9e3d51f
 Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
  integrated into the System > Monitor menu of SysLinuxOS.
