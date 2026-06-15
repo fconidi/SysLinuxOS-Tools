@@ -1,5 +1,5 @@
 Package: conky-window
-Version: 0.1.0
+Version: 0.1.1
 Architecture: all
 Depends: conky-all
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
@@ -7,11 +7,11 @@ Homepage: https://syslinuxos.com
 Installed-Size: 20
 Priority: optional
 Section: x11
-Filename: pool/main/c/conky-window/conky-window_0.1.0_all.deb
-Size: 2904
-SHA256: 832d63b200f12e78d0b2e738aa9e82418c1739ddd22892860ea567841e6326bb
-SHA1: 151e4b02bf095e90b0e8377bb5c67da4858fa9df
-MD5sum: 042f07f3cd6be7806dd4e7c480075df9
+Filename: pool/main/c/conky-window/conky-window_0.1.1_all.deb
+Size: 2972
+SHA256: 8e947eeae612c73e30cca60c48c9e73f657fe37843659d36b06babe423fcdb42
+SHA1: ebc61c31e5755205c15d15ced195a0193ef16f50
+MD5sum: 894de93e52f94b64298f150d4bfabc1c
 Description: Standard Conky window theme for SysLinuxOS
  Provides start/stop menu integration for the standard SysLinuxOS Conky
  configuration (/etc/conky/conky.conf), with system info including CPU,
