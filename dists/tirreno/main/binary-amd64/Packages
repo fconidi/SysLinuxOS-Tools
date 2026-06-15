@@ -106,7 +106,7 @@ Description: Include btrfs snapshots in GRUB boot menu
  SysLinuxOS-specific build for Debian trixie. Upstream version 4.14.
 
 Package: syslinuxos-ring-conky
-Version: 0.1.2
+Version: 0.1.3
 Architecture: all
 Depends: conky-all, x11-xserver-utils
 Recommends: x11-utils
@@ -115,29 +115,27 @@ Homepage: https://syslinuxos.com
 Installed-Size: 144
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.2_all.deb
-Size: 26708
-SHA256: 3afe834f9682eafa4ebe963cd4897c6370a6a7fcae9e30ae736f0c48d786b8ca
-SHA1: 81de0ef5eac64cb29b6958a2a019b417165c6d78
-MD5sum: cfae7773352c25b999dc5dc3bb8d2968
-Description: Tema Conky ad anelli per SysLinuxOS con auto-scaling
- Tema Conky "ad anelli" (CPU, RAM, dischi, rete, orologio, batteria)
- integrato nel menu System > Monitor di SysLinuxOS.
+Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.3_all.deb
+Size: 26668
+SHA256: 0146b9a43738191cccc01d4bd40316938d18985cb9e68281b27f64449c049177
+SHA1: 9dbe09a22dd1d4ae94840e240d892bf173048672
+MD5sum: 7a24a4d94424eae29531cfc9ed6a3f64
+Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
+ Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
+ integrated into the System > Monitor menu of SysLinuxOS.
  .
- Fork di Auzia Conky di Zineddine SAIBI (GPL-3.0,
- https://github.com/SZinedine/auzia-conky), a sua volta basato sul template
- Namoudaj Conky dello stesso autore. Fork e packaging per SysLinuxOS a cura
- di Franco Conidi (edmond) <fconidi@gmail.com> - https://syslinuxos.com -
- https://francoconidi.it
+ Fork of Auzia Conky by Zineddine SAIBI (GPL-3.0,
+ https://github.com/SZinedine/auzia-conky), itself based on the
+ Namoudaj Conky template by the same author. Forked and packaged for
+ SysLinuxOS by Franco Conidi (edmond) <fconidi@gmail.com>.
  .
- Novita' del fork: rilevamento automatico della risoluzione dello schermo
- (xrandr, fallback xdpyinfo) e ridimensionamento di finestra e disegno in
- proporzione rispetto al progetto 1920x1080, tramite cairo_scale. A 1920x1080
- il layout resta identico all'originale; a risoluzioni diverse il conky e'
- proporzionato e leggibile. Override per i test: CONKY_RING_SCALE=<fattore>.
+ Added features: automatic screen resolution detection (xrandr, fallback
+ xdpyinfo) and proportional scaling of the window and drawing relative to
+ the 1920x1080 reference layout, via cairo_scale. Override: CONKY_RING_SCALE.
+ CPU temperature fixed to use coretemp (Intel Package id 0) or k10temp
+ (AMD Tctl/Tdie) instead of the inaccurate acpitemp sensor.
  .
- Include il servizio check_cpu.service che imposta automaticamente il numero
- di core/thread della CPU al boot.
+ Includes check_cpu.service which auto-detects CPU core/thread count at boot.
 
 Package: syslinuxos-snapshots
 Version: 0.3.12
