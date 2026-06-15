@@ -1,3 +1,25 @@
+Package: conky-window
+Version: 0.1.0
+Architecture: all
+Depends: conky-all
+Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
+Homepage: https://syslinuxos.com
+Installed-Size: 20
+Priority: optional
+Section: x11
+Filename: pool/main/c/conky-window/conky-window_0.1.0_all.deb
+Size: 2904
+SHA256: 832d63b200f12e78d0b2e738aa9e82418c1739ddd22892860ea567841e6326bb
+SHA1: 151e4b02bf095e90b0e8377bb5c67da4858fa9df
+MD5sum: 042f07f3cd6be7806dd4e7c480075df9
+Description: Standard Conky window theme for SysLinuxOS
+ Provides start/stop menu integration for the standard SysLinuxOS Conky
+ configuration (/etc/conky/conky.conf), with system info including CPU,
+ memory, filesystem, network, and clock in a desktop overlay window.
+ .
+ Integrates into the System > Monitor menu of SysLinuxOS.
+ The configuration file is managed by the conky-all package.
+
 Package: distroclone
 Version: 1.4.8
 Architecture: all
