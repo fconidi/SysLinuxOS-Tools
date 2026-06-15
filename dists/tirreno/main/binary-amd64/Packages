@@ -1,5 +1,5 @@
 Package: conky-window
-Version: 0.1.4
+Version: 0.1.5
 Architecture: all
 Depends: conky-all
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
@@ -7,11 +7,11 @@ Homepage: https://syslinuxos.com
 Installed-Size: 24
 Priority: optional
 Section: x11
-Filename: pool/main/c/conky-window/conky-window_0.1.4_all.deb
-Size: 5352
-SHA256: fe5c5a8edc42dda8991f81191250293b2ff2ea2f5d4513eb5fec55bacea0e763
-SHA1: eebe0ac2111e445d7af982dd88438267be8e4e2e
-MD5sum: 9a6267f2e9b19c05b824bc972ca8dc22
+Filename: pool/main/c/conky-window/conky-window_0.1.5_all.deb
+Size: 5436
+SHA256: ab5a87bbdf8474ffddc15c55472d60053a60260b5504a8b11b8f80787cbcdcf4
+SHA1: ad0dc6aa1e2d2aa6a0b0bb1af2cc1f8e457facd5
+MD5sum: c76bc449a613416359325b9c3d61e1c8
 Description: Standard Conky window theme for SysLinuxOS
  System monitor panel (CPU per-core, top processes, memory, filesystem,
  network) integrated into the System > Monitor menu of SysLinuxOS.
