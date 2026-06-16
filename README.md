@@ -43,7 +43,7 @@ sudo apt update
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
-| `syslinuxos-ring-conky` | Ring-style Conky theme with auto-scaling |
+| [`syslinuxos-ring-conky`](https://github.com/fconidi/syslinuxos-ring-conky) | Ring-style Conky theme with auto-scaling |
 | `syslinuxos-snapshots` | Btrfs snapshots + GRUB integration |
 
 > **Note on `grub-btrfs`**: it is an override of the Debian version. To prevent
