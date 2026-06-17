@@ -62,9 +62,9 @@ Priority: optional
 Section: admin
 Filename: pool/main/d/distroclone-backup/distroclone-backup_1.3.4_all.deb
 Size: 213460
-SHA256: 39babc162c21ac3b90eca30b4b5851beee500edefd67bebb3804b2ebdff07352
-SHA1: 22c009602752dcbe3530103e617a94745a4a8548
-MD5sum: 2044717aa3b1f07db5cbd38dfdbbb743
+SHA256: 28855a264eb0dd335fabf0f714b75940015d2a47c8adbc7d9427fc104b3a90fb
+SHA1: 7ab2a80d59725d21259438463603568da4a7f3fc
+MD5sum: c76657de4aa2abffb54cd03add30a7cb
 Description: DistroClone Backup & Restore Tool
  Incremental rootfs backup and restore tool for Debian-based systems.
  Companion tool for DistroClone.
