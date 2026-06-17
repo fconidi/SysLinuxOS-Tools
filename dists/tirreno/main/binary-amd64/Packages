@@ -22,7 +22,7 @@ Description: Standard Conky window theme for SysLinuxOS
  Configuration template: /etc/conky/conky-window.conf.
 
 Package: distroclone
-Version: 1.4.8
+Version: 1.4.9
 Architecture: all
 Depends: bash, rsync, xorriso, mtools, syslinux-utils, syslinux-common, isolinux, imagemagick
 Recommends: yad, zenity, grub-efi-amd64, efibootmgr, calamares, calamares-settings-debian, os-prober, fdisk, live-boot, live-config, live-config-systemd
@@ -31,11 +31,11 @@ Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: admin
-Filename: pool/main/d/distroclone/distroclone_1.4.8_all.deb
-Size: 2090484
-SHA256: 763a077cdf853575c876203a571d11d5aa553f9e508d008b82e4071c32722396
-SHA1: 1324fbaace807a52848a56289389247b24fa808e
-MD5sum: 033a7cad030d09ac978739fecfde3349
+Filename: pool/main/d/distroclone/distroclone_1.4.9_all.deb
+Size: 2090580
+SHA256: 8bc499e8a067508768e9142110beabde882d879fd23ad02d5f4b8454a8083cb1
+SHA1: 439cbaea7df3fe25315c0e3fac9e9c5e77ccc558
+MD5sum: 134a331380a621c1a0df65d553af2a65
 Description: DistroClone - Universal Live ISO Builder
  Create customized bootable live ISO images from any running
  Debian-based system (Debian, Ubuntu, Linux Mint, Elementary OS,
