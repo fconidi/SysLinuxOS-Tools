@@ -138,20 +138,20 @@ Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Includes check_cpu.service which auto-detects CPU core/thread count at boot.
 
 Package: syslinuxos-snapshots
-Version: 0.3.13
+Version: 0.3.15
 Architecture: all
 Depends: snapper (>= 0.10), grub-btrfs (>= 4.14), inotify-tools, btrfs-progs, util-linux
 Recommends: distroclone-backup
 Maintainer: SysLinuxOS Team <fconidi@gmail.com>
 Homepage: https://github.com/franco-conidi/syslinuxos
-Installed-Size: 44
+Installed-Size: 48
 Priority: optional
 Section: admin
-Filename: pool/main/s/syslinuxos-snapshots/syslinuxos-snapshots_0.3.13_all.deb
-Size: 11968
-SHA256: 28b2db714d2a2f19f61bb274e436c57bb3717c3438149a110e2b51cdcec6b684
-SHA1: 022edbd2b09f11b367ac13b48df41f7149fcd933
-MD5sum: 8790e22d0181a481b19362c31167d831
+Filename: pool/main/s/syslinuxos-snapshots/syslinuxos-snapshots_0.3.15_all.deb
+Size: 12504
+SHA256: 10ff4c034494a4cf7537911ed1a79f972846190379df856d80b03aa6855a0e5c
+SHA1: 63e1fa315ba644024409d55b21f74e7ea67f594b
+MD5sum: 671ad0c9d126c62abb093b630b65d42e
 Description: Btrfs snapshots + GRUB integration for SysLinuxOS
  Meta-package that integrates snapper, grub-btrfs and the syslinuxos-rollback
  helper to provide automatic GRUB-bootable snapshots with rollback support.
