@@ -106,7 +106,7 @@ Description: Include btrfs snapshots in GRUB boot menu
  SysLinuxOS-specific build for Debian trixie. Upstream version 4.14.
 
 Package: librepods
-Version: 0.1.0
+Version: 0.1.1
 Architecture: amd64
 Depends: libc6, libqt6bluetooth6, libqt6core6t64, libqt6dbus6, libqt6gui6, libqt6network6, libqt6qml6, libqt6quick6, libqt6widgets6, libpulse0, libssl3t64, bluetooth
 Recommends: wireplumber
@@ -115,11 +115,11 @@ Homepage: https://github.com/librepods-org/librepods
 Installed-Size: 2840
 Priority: optional
 Section: sound
-Filename: pool/main/libr/librepods/librepods_0.1.0_amd64.deb
-Size: 1296712
-SHA256: b2aa8aeb3bfd760af8e987b0a34a5b5aefd42db5b86b6851fe661fbffbfc300a
-SHA1: d1e8d323dad58305be8e99ac13a986c7f9b088d9
-MD5sum: cfe4942c9ca4b34f4fa979484f80510a
+Filename: pool/main/libr/librepods/librepods_0.1.1_amd64.deb
+Size: 1296748
+SHA256: 11ce9b4f73a2944413842570e9998c8c5860b634964a4d2be64d055f8e4d8670
+SHA1: 817354c1e84c93c34020f5f00e674cd819971503
+MD5sum: cf0f744df19a7b099ee64c24aee7c444
 Description: AirPods control application for Linux
  LibrePods implements the proprietary Apple protocol used to exchange
  data between AirPods and Apple devices, enabling full AirPods
