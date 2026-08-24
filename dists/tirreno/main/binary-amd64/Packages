@@ -105,6 +105,64 @@ Description: Include btrfs snapshots in GRUB boot menu
  .
  SysLinuxOS-specific build for Debian trixie. Upstream version 4.14.
 
+Package: librepods
+Version: 0.1.0
+Architecture: amd64
+Depends: libc6, libqt6bluetooth6, libqt6core6t64, libqt6dbus6, libqt6gui6, libqt6network6, libqt6qml6, libqt6quick6, libqt6widgets6, libpulse0, libssl3t64, bluetooth
+Recommends: wireplumber
+Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
+Homepage: https://github.com/librepods-org/librepods
+Installed-Size: 2840
+Priority: optional
+Section: sound
+Filename: pool/main/libr/librepods/librepods_0.1.0_amd64.deb
+Size: 1296712
+SHA256: b2aa8aeb3bfd760af8e987b0a34a5b5aefd42db5b86b6851fe661fbffbfc300a
+SHA1: d1e8d323dad58305be8e99ac13a986c7f9b088d9
+MD5sum: cfe4942c9ca4b34f4fa979484f80510a
+Description: AirPods control application for Linux
+ LibrePods implements the proprietary Apple protocol used to exchange
+ data between AirPods and Apple devices, enabling full AirPods
+ functionality on Linux.
+ .
+ Features: noise control (ANC/Transparency/Off), battery monitoring
+ for each earbud and case, ear detection (auto play/pause),
+ conversational awareness, and device auto-connection.
+ .
+ Also includes librepods-ctl, a CLI utility for noise control.
+ .
+ Upstream: https://github.com/librepods-org/librepods (GPL-3.0)
+ Built from source for SysLinuxOS by Franco Conidi.
+
+Package: syslinuxos-ai-copilot
+Version: 0.1.5
+Architecture: all
+Depends: python3, python3-requests
+Maintainer: SysLinuxOS Team <fconidi@gmail.com>
+Homepage: https://github.com/franco-conidi/syslinuxos
+Installed-Size: 136
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinuxos-ai-copilot/syslinuxos-ai-copilot_0.1.5_all.deb
+Size: 90496
+SHA256: d5eec07c266fc90014e6d6f167754de9c2d92d5b4cf78eeb8ccc2618fd2c2771
+SHA1: 1fb588796b6231c27ba25ac5bfc44b0182d8fc1a
+MD5sum: 86bfdaeb6e1bae9917af7515ef605ad6
+Description: Natural-language shell copilot for SysLinuxOS (slai)
+ CLI tool that lets a sysadmin ask questions about the running system in
+ natural language. Autonomously gathers context via a hardcoded read-only
+ command whitelist (systemctl, journalctl, ss, ip, df, snapper, ...) and
+ only proposes — never auto-runs — commands that change system state.
+ .
+ Defaults to a local Ollama model (installed automatically on first
+ configure if missing); optionally configurable to use a cloud provider
+ (Anthropic) via ~/.config/slai/config.toml.
+ .
+ TIER2 / opt-in package: install via
+   sudo syslinuxos-install-extras ai
+ rather than a direct apt install, since it also needs the SysLinuxOS-Tools
+ APT source configured (handled by the install-extras "ai" category).
+
 Package: syslinuxos-ring-conky
 Version: 0.1.4
 Architecture: all
