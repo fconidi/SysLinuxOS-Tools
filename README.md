@@ -43,8 +43,10 @@ sudo apt update
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
+| [`librepods`](https://github.com/librepods-org/librepods) | AirPods control application for Linux |
 | [`syslinuxos-ring-conky`](https://github.com/fconidi/syslinuxos-ring-conky) | Ring-style Conky theme with auto-scaling |
 | `syslinuxos-snapshots` | Btrfs snapshots + GRUB integration |
+| `terminal-router` | tmux session recorder for AI-assisted router work |
 
 > **Note on `grub-btrfs`**: it is an override of the Debian version. To prevent
 > a Debian update (numerically higher version) from replacing it,
