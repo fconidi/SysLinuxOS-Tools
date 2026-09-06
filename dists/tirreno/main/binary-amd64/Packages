@@ -242,7 +242,7 @@ Description: Btrfs snapshots + GRUB integration for SysLinuxOS
  but prints a warning and does not touch the configuration.
 
 Package: terminal-router
-Version: 1.0.5
+Version: 1.0.6
 Architecture: all
 Depends: bash, tmux
 Recommends: cron
@@ -251,11 +251,11 @@ Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: net
-Filename: pool/main/t/terminal-router/terminal-router_1.0.5_all.deb
-Size: 98904
-SHA256: 60344c1d08a68a921d2ad9bed47fe8dfb49ff84ffe27733825538f413d5cb2f3
-SHA1: 3c6f2c78a2b07888e43475a219991ab07607e3f0
-MD5sum: edbc4471df7706f11d819b045a4a765e
+Filename: pool/main/t/terminal-router/terminal-router_1.0.6_all.deb
+Size: 99104
+SHA256: e899c2efbdf9dc98024290001056216526a4b3a0706ad4c926265b424c7f5532
+SHA1: be82bd1a3d029a58a6cbf611fd21c169760145cc
+MD5sum: 43a53fd34d2f2da713b8eac642473884
 Description: Terminal Router - tmux session recorder for AI-assisted router work
  Records every interactive terminal session into a per-pane log file under
  ~/.claude-logs, so an AI assistant such as Claude Code can follow a live
@@ -283,5 +283,5 @@ Description: Terminal Router - tmux session recorder for AI-assisted router work
  install time: the user must explicitly opt in from the menu entry or with
  "terminal-router install", after acknowledging that the log captures whatever
  is printed on screen.
-Installed-Size: 136
+Installed-Size: 140
 
