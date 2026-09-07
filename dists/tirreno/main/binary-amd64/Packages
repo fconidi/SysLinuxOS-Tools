@@ -286,23 +286,23 @@ Description: Terminal Router - tmux session recorder for AI-assisted router work
 Installed-Size: 140
 
 Package: terminal-system
-Version: 1.1.0
+Version: 1.1.1
 Architecture: all
 Depends: bash, tmux, xclip
 Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: utils
-Filename: pool/main/t/terminal-system/terminal-system_1.1.0_all.deb
-Size: 97624
-SHA256: 39b9d9c9430f8bcb1a5bd8fbf96a13b219fe3b6d21b6cdb3add3836087ad1ef1
-SHA1: 44330de244aeb11e30da966870a7fee8401d8301
-MD5sum: 6e7afa5d7030f8571cd21f56340ac841
-Description: AI-assisted two-pane terminal (natural language -> shell commands)
- A tmux two-pane layout: the right pane takes instructions in natural
+Filename: pool/main/t/terminal-system/terminal-system_1.1.1_all.deb
+Size: 97664
+SHA256: 7676fcdb8f66c9c75441e26a2988b2de312f73b9a0832991f0e4174f580692eb
+SHA1: 2329e9342731b782053cf0e3c334bf1e26e72ecf
+MD5sum: cdf3dc453b13dcbc8e0df75ea20f64f6
+Description: AI-assisted two-panel terminal (natural language -> shell commands)
+ A tmux two-panel layout: the right panel takes instructions in natural
  language, an AI engine (Claude Code or Codex, called non-interactively
  and with no tool access of its own) translates each instruction into
- shell command(s), and those commands are typed into the left pane in
+ shell command(s), and those commands are typed into the left panel in
  real time.
  .
  Every command is confirmed manually by default; an opt-in auto-mode
