@@ -40,13 +40,16 @@ sudo apt update
 
 | Package | Description |
 |---|---|
+| `conky-window` | Standard Conky window theme for SysLinuxOS |
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
 | [`librepods`](https://github.com/librepods-org/librepods) | AirPods control application for Linux |
+| `syslinuxos-ai-copilot` | Natural-language shell copilot for SysLinuxOS (slai) — TIER2, install via `syslinuxos-install-extras ai` |
 | [`syslinuxos-ring-conky`](https://github.com/fconidi/syslinuxos-ring-conky) | Ring-style Conky theme with auto-scaling |
 | `syslinuxos-snapshots` | Btrfs snapshots + GRUB integration |
 | `terminal-router` | tmux session recorder for AI-assisted router work |
+| [`terminal-system`](https://github.com/fconidi/terminal-system) | AI-assisted two-panel terminal (natural language -> shell commands) |
 
 > **Note on `grub-btrfs`**: it is an override of the Debian version. To prevent
 > a Debian update (numerically higher version) from replacing it,
