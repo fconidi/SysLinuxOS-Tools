@@ -134,35 +134,6 @@ Description: AirPods control application for Linux
  Upstream: https://github.com/librepods-org/librepods (GPL-3.0)
  Built from source for SysLinuxOS by Franco Conidi.
 
-Package: syslinuxos-ai-copilot
-Version: 0.1.5
-Architecture: all
-Depends: python3, python3-requests
-Maintainer: SysLinuxOS Team <fconidi@gmail.com>
-Homepage: https://github.com/franco-conidi/syslinuxos
-Installed-Size: 136
-Priority: optional
-Section: admin
-Filename: pool/main/s/syslinuxos-ai-copilot/syslinuxos-ai-copilot_0.1.5_all.deb
-Size: 90496
-SHA256: d5eec07c266fc90014e6d6f167754de9c2d92d5b4cf78eeb8ccc2618fd2c2771
-SHA1: 1fb588796b6231c27ba25ac5bfc44b0182d8fc1a
-MD5sum: 86bfdaeb6e1bae9917af7515ef605ad6
-Description: Natural-language shell copilot for SysLinuxOS (slai)
- CLI tool that lets a sysadmin ask questions about the running system in
- natural language. Autonomously gathers context via a hardcoded read-only
- command whitelist (systemctl, journalctl, ss, ip, df, snapper, ...) and
- only proposes — never auto-runs — commands that change system state.
- .
- Defaults to a local Ollama model (installed automatically on first
- configure if missing); optionally configurable to use a cloud provider
- (Anthropic) via ~/.config/slai/config.toml.
- .
- TIER2 / opt-in package: install via
-   sudo syslinuxos-install-extras ai
- rather than a direct apt install, since it also needs the SysLinuxOS-Tools
- APT source configured (handled by the install-extras "ai" category).
-
 Package: syslinuxos-ring-conky
 Version: 0.1.4
 Architecture: all
