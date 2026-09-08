@@ -3,19 +3,19 @@ Label: SysLinuxOS-Tools
 Suite: tirreno
 Codename: tirreno
 Version: 13
-Date: Tue, 08 Sep 2026 19:13:54 UTC
+Date: Tue, 08 Sep 2026 20:15:57 UTC
 Architectures: amd64
 Components: main
 Description: SysLinuxOS Tools - official APT repository (SysLinuxOS packages)
 MD5Sum:
- f99420c0f0b00de1c6323e622ba5edb7 12940 main/binary-amd64/Packages
- 445c76eee398ab69477ab59da3089954 5627 main/binary-amd64/Packages.gz
+ b5cc2ab495e6633d257fcc563c3e7b1b 12940 main/binary-amd64/Packages
+ 23d63d86f9d611a1413682eadde4f1b9 5628 main/binary-amd64/Packages.gz
  a0219dce73fcc36abf487cea3e4cd440 186 main/binary-amd64/Release
 SHA1:
- d61f73cf7a26c7253b78d039502cba6abb19c56e 12940 main/binary-amd64/Packages
- f837fc597fb528a7a712ccbfcd9ebc0894f0e962 5627 main/binary-amd64/Packages.gz
+ 07a5207559be85ea7ea7230eb2c5b300ad898788 12940 main/binary-amd64/Packages
+ c4f1147a7027b52ce5016b12fc3ed3b78d90de18 5628 main/binary-amd64/Packages.gz
  f437fc4b7972a69ae4d0ee32531e58615251b34f 186 main/binary-amd64/Release
 SHA256:
- 42c2ff2847ae55c3e8961f8c8164a783f25d4c71d170bd8bd457bca646d39992 12940 main/binary-amd64/Packages
- 1ed202e39460061c8ba26f8b6ed7edbb084ce3cf08737258b012bb9c6a286c18 5627 main/binary-amd64/Packages.gz
+ fe99582ac9751480dae1ffabf35685ddc2ba0ca2bf7318d40dff30da974355f8 12940 main/binary-amd64/Packages
+ 88bffcaefe29412503ca969ee0d1f2572e5c68bcfff45f0115faf6354abd2ade 5628 main/binary-amd64/Packages.gz
  6e0d29238d718a52a8b8c325beac1a80a661b4f90eed6fe30a7634c4ec8a7bcb 186 main/binary-amd64/Release
