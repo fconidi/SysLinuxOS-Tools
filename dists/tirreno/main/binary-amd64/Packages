@@ -257,7 +257,7 @@ Description: Terminal Router - tmux session recorder for AI-assisted router work
 Installed-Size: 140
 
 Package: terminal-system
-Version: 1.1.5
+Version: 1.1.6
 Architecture: all
 Depends: bash, tmux
 Recommends: xclip
@@ -265,11 +265,11 @@ Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: utils
-Filename: pool/main/t/terminal-system/terminal-system_1.1.5_all.deb
-Size: 101536
-SHA256: f11067f6facd9b33940dc4a4c84a4dc59bc03ad826324707709c99579a50496f
-SHA1: 2fb5b5dffa5cda1d4b9fa928313ff10cb105d06e
-MD5sum: daea163e61e47e50c3cbf7b82fa362d7
+Filename: pool/main/t/terminal-system/terminal-system_1.1.6_all.deb
+Size: 101848
+SHA256: 8fc2ef8b8ec4119e7a873474bd8657d174ec6f0fa41a7bae01715a89416b6523
+SHA1: c309932e711d0f38ab04ba2348e666e98915173b
+MD5sum: 055f5344e07bf6473a645d8e83a00236
 Description: AI-assisted two-panel terminal (natural language -> shell commands)
  A tmux two-panel layout: the right panel takes instructions in natural
  language, an AI engine (Claude Code or Codex, called non-interactively
