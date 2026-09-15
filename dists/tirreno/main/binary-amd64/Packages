@@ -213,7 +213,7 @@ Description: Btrfs snapshots + GRUB integration for SysLinuxOS
  but prints a warning and does not touch the configuration.
 
 Package: terminal-router
-Version: 1.0.6
+Version: 1.0.7
 Architecture: all
 Depends: bash, tmux
 Recommends: cron
@@ -222,11 +222,11 @@ Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: net
-Filename: pool/main/t/terminal-router/terminal-router_1.0.6_all.deb
-Size: 99104
-SHA256: e899c2efbdf9dc98024290001056216526a4b3a0706ad4c926265b424c7f5532
-SHA1: be82bd1a3d029a58a6cbf611fd21c169760145cc
-MD5sum: 43a53fd34d2f2da713b8eac642473884
+Filename: pool/main/t/terminal-router/terminal-router_1.0.7_all.deb
+Size: 99880
+SHA256: 9e14547c1990b6d6c5850daf5b959cefdde185fe52089b3bd113f1442b551fae
+SHA1: c54547b76ce726b165d37fbcf66679f749cb3906
+MD5sum: ffcd0f8f7974772aea08bae709962939
 Description: Terminal Router - tmux session recorder for AI-assisted router work
  Records every interactive terminal session into a per-pane log file under
  ~/.claude-logs, so an AI assistant such as Claude Code can follow a live
