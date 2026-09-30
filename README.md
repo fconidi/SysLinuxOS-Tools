@@ -40,7 +40,7 @@ sudo apt update
 
 | Package | Description |
 |---|---|
-| `conky-window` | Standard Conky window theme for SysLinuxOS |
+| [`conky-window`](https://github.com/fconidi/syslinuxos-conky-window) | Standard Conky window theme for SysLinuxOS |
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
