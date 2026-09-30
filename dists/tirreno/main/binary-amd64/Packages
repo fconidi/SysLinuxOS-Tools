@@ -135,20 +135,20 @@ Description: AirPods control application for Linux
  Built from source for SysLinuxOS by Franco Conidi.
 
 Package: syslinuxos-ring-conky
-Version: 0.1.4
+Version: 0.1.6
 Architecture: all
 Depends: conky-all, x11-xserver-utils
 Recommends: x11-utils
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://syslinuxos.com
-Installed-Size: 144
+Installed-Size: 152
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.4_all.deb
-Size: 26948
-SHA256: a8e1911bbddb24901d808ff41fa51a67ea61669cdbf5f30ef7bf202de4c4d779
-SHA1: a45894fb65bc952dbe734933e30c31cd6d56b68b
-MD5sum: 1b0a632cfca099854ba2e7a4f9e3d51f
+Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.6_all.deb
+Size: 27844
+SHA256: b876fb7efcb425e879e563c7c09dd3b0df2fef75aa8de1bc0c4cadb45815201d
+SHA1: d8870631987aaeca5482dc91315f3ac8fd5d42f6
+MD5sum: 836fc4e2865dcdcfea96bb396e751924
 Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
  integrated into the System > Monitor menu of SysLinuxOS.
