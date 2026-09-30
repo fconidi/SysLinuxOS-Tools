@@ -130,21 +130,22 @@ Description: AirPods control application for Linux
  Built from source for SysLinuxOS by Franco Conidi.
 
 Package: syslinuxos-conky-window
-Version: 0.2.0
+Version: 0.2.1
 Architecture: all
 Depends: conky-all
+Recommends: lsb-release, curl, lm-sensors, x11-utils, x11-xserver-utils
 Replaces: conky-window (<< 0.2.0)
 Breaks: conky-window (<< 0.2.0)
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://syslinuxos.com
-Installed-Size: 40
+Installed-Size: 48
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.0_all.deb
-Size: 7464
-SHA256: 1d59bf02ae5fe7939f7bd30e1735c68c63867cfe040bf2aaed64a01756085bed
-SHA1: 3c28bbd0833963ebe8a15a70478b5917915e9471
-MD5sum: 44f4063b85e7b9bc5077eb1747aa9c6e
+Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.1_all.deb
+Size: 9420
+SHA256: af970eca4d84f35beabaaac34739e13584dad4dea5d4d36d7ae70a75d7a548b0
+SHA1: 9465e20d5a9ed96ce46012f3d26314ad9607a9cc
+MD5sum: 470e06744954fc8a25f0c8d164b68c24
 Description: Standard Conky window theme for SysLinuxOS
  System monitor panel (CPU per-core, top processes, memory, filesystem,
  network) integrated into the System > Monitor menu of SysLinuxOS.
@@ -155,20 +156,20 @@ Description: Standard Conky window theme for SysLinuxOS
  Configuration template: /etc/conky/conky-window.conf.
 
 Package: syslinuxos-ring-conky
-Version: 0.1.8
+Version: 0.1.9
 Architecture: all
 Depends: conky-all, x11-xserver-utils
-Recommends: x11-utils
+Recommends: x11-utils, curl, lm-sensors
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://syslinuxos.com
-Installed-Size: 152
+Installed-Size: 160
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.8_all.deb
-Size: 28024
-SHA256: ff507203365e868d3626b4d32ef104b35c0339eac1d6784ef2c3994a5cb81040
-SHA1: 001567d2d7731b9d14f2cdf80491bd7ad858d74b
-MD5sum: 3dabb7179ffce0b3457941aebcb2cf96
+Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.9_all.deb
+Size: 29896
+SHA256: da6ad48e75a873f7beb8c16b435b1798659b13bb7b9ed6fcb7ee30de107c615e
+SHA1: 671d03ba68b3fb0a99302c343a597df26a32624f
+MD5sum: be88774ddc785c416054890afef1e1ad
 Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
  integrated into the System > Monitor menu of SysLinuxOS.
