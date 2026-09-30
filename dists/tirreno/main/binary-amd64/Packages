@@ -1,25 +1,20 @@
 Package: conky-window
-Version: 0.1.6
+Version: 0.2.0
 Architecture: all
-Depends: conky-all
+Depends: syslinuxos-conky-window (>= 0.2.0)
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://syslinuxos.com
-Installed-Size: 40
+Installed-Size: 1
 Priority: optional
-Section: x11
-Filename: pool/main/c/conky-window/conky-window_0.1.6_all.deb
-Size: 7380
-SHA256: ffebf1d6c7243a730da2878ab17f7aed516f448a3199ace0380864d339733b0f
-SHA1: d6c85dc4a8a9eb71e5fb42256ad395aeb92a3cf5
-MD5sum: d71467c151f8b296b4add15b6a433db8
-Description: Standard Conky window theme for SysLinuxOS
- System monitor panel (CPU per-core, top processes, memory, filesystem,
- network) integrated into the System > Monitor menu of SysLinuxOS.
- .
- Auto-scales font sizes, widths and bar dimensions to the screen resolution
- at startup (reference 1920x1080, override with CONKY_WINDOW_SCALE=<n>).
- CPU bars are generated dynamically for any number of logical processors.
- Configuration template: /etc/conky/conky-window.conf.
+Section: oldlibs
+Filename: pool/main/c/conky-window/conky-window_0.2.0_all.deb
+Size: 840
+SHA256: 65c6a0ef9081e5c1ab096a41ef3ddb6b38850bb2c8feed9479f846ee102012a5
+SHA1: 2307376eab85de2f224f0888fe6f4c1f9a060abf
+MD5sum: cca0dc64b67fb41a73a694925f77a8a9
+Description: transitional package, conky-window is now syslinuxos-conky-window
+ This empty package only pulls in syslinuxos-conky-window and can be safely
+ removed once the upgrade is complete.
 
 Package: distroclone
 Version: 1.4.10
@@ -133,6 +128,31 @@ Description: AirPods control application for Linux
  .
  Upstream: https://github.com/librepods-org/librepods (GPL-3.0)
  Built from source for SysLinuxOS by Franco Conidi.
+
+Package: syslinuxos-conky-window
+Version: 0.2.0
+Architecture: all
+Depends: conky-all
+Replaces: conky-window (<< 0.2.0)
+Breaks: conky-window (<< 0.2.0)
+Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
+Homepage: https://syslinuxos.com
+Installed-Size: 40
+Priority: optional
+Section: x11
+Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.0_all.deb
+Size: 7464
+SHA256: 1d59bf02ae5fe7939f7bd30e1735c68c63867cfe040bf2aaed64a01756085bed
+SHA1: 3c28bbd0833963ebe8a15a70478b5917915e9471
+MD5sum: 44f4063b85e7b9bc5077eb1747aa9c6e
+Description: Standard Conky window theme for SysLinuxOS
+ System monitor panel (CPU per-core, top processes, memory, filesystem,
+ network) integrated into the System > Monitor menu of SysLinuxOS.
+ .
+ Auto-scales font sizes, widths and bar dimensions to the screen resolution
+ at startup (reference 1920x1080, override with CONKY_WINDOW_SCALE=<n>).
+ CPU bars are generated dynamically for any number of logical processors.
+ Configuration template: /etc/conky/conky-window.conf.
 
 Package: syslinuxos-ring-conky
 Version: 0.1.7
