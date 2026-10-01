@@ -48,18 +48,18 @@ Description: DistroClone - Universal Live ISO Builder
 Installed-Size: 2628
 
 Package: distroclone-backup
-Version: 1.3.4
+Version: 1.3.8
 Architecture: all
 Depends: yad, rsync, imagemagick
 Recommends: distroclone, btrfs-progs, snapper
 Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/d/distroclone-backup/distroclone-backup_1.3.4_all.deb
-Size: 213460
-SHA256: 28855a264eb0dd335fabf0f714b75940015d2a47c8adbc7d9427fc104b3a90fb
-SHA1: 7ab2a80d59725d21259438463603568da4a7f3fc
-MD5sum: c76657de4aa2abffb54cd03add30a7cb
+Filename: pool/main/d/distroclone-backup/distroclone-backup_1.3.8_all.deb
+Size: 218436
+SHA256: cb33c84d4ffe68057c9b2959b31784837807755b81f5318778946f0142d34732
+SHA1: 7c5432f973e61db8fae2f635fc7b64dd325cf206
+MD5sum: 80a0e212519166ee92699b99466f2819
 Description: DistroClone Backup & Restore Tool
  Incremental rootfs backup and restore tool for Debian-based systems.
  Companion tool for DistroClone.
@@ -71,7 +71,7 @@ Description: DistroClone Backup & Restore Tool
  Without snapper installed, behaves as v1.2.2 (raw btrfs snapshots).
  .
  Supports: English, Italiano, Deutsch, Français, Español.
-Installed-Size: 308
+Installed-Size: 328
 
 Package: grub-btrfs
 Version: 4.14-1syslinuxos1
