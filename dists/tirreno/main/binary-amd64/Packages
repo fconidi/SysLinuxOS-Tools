@@ -130,7 +130,7 @@ Description: AirPods control application for Linux
  Built from source for SysLinuxOS by Franco Conidi.
 
 Package: syslinuxos-conky-window
-Version: 0.2.3
+Version: 0.2.4
 Architecture: all
 Depends: conky-all
 Recommends: lsb-release, curl, lm-sensors, x11-utils, x11-xserver-utils
@@ -141,11 +141,11 @@ Homepage: https://syslinuxos.com
 Installed-Size: 48
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.3_all.deb
-Size: 9680
-SHA256: bb3051f3060e3128a651ff4dc77cbf82392ea4db350458229fff198fd19b0045
-SHA1: e79c6c197cfe8776348234a9220f24cfdefdd0af
-MD5sum: 0d977862819f671b4c9f5c6726b5e871
+Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.4_all.deb
+Size: 9820
+SHA256: 28209f57ac0022e3bf19799ae442c8f545e3f920cd8649b0bcbbcf947fed2acc
+SHA1: 0f426546dc0d569af0d8b1a9dceb476a7b931730
+MD5sum: e998d550c968d326a216401907031479
 Description: Standard Conky window theme for SysLinuxOS
  System monitor panel (CPU per-core, top processes, memory, filesystem,
  network) integrated into the System > Monitor menu of SysLinuxOS.
