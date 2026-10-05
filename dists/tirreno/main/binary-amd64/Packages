@@ -155,6 +155,28 @@ Description: Standard Conky window theme for SysLinuxOS
  CPU bars are generated dynamically for any number of logical processors.
  Configuration template: /etc/conky/conky-window.conf.
 
+Package: syslinuxos-nvidia-setup
+Version: 1.1.0
+Architecture: amd64
+Depends: bash (>= 5), apt, coreutils, util-linux, yad, pkexec
+Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
+Homepage: https://syslinuxos.com
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinuxos-nvidia-setup/syslinuxos-nvidia-setup_1.1.0_amd64.deb
+Size: 22480
+SHA256: e5565cfb767fda2bd3b0803fcff267fe0ba8c005a280f672075dc23d7154f562
+SHA1: 8eb6706a03e82ce043950867e4c4c587e93b4d5a
+MD5sum: e1f6334a9288d06a6224d31b2b3a2293
+Description: NVIDIA driver setup with optional CUDA for SysLinuxOS 13
+ Detect NVIDIA display adapters and install compatible APT driver packages.
+ Includes a YAD frontend in the SysLinuxOS Tools menu and a terminal mode.
+ Automatically selects English, Italian, Spanish, German or French.
+ English is used for unsupported or unset system languages.
+ CUDA Toolkit is optional. Secure Boot may require manual MOK enrollment.
+ Installing this package does not install GPU drivers automatically:
+ launch SysLinuxOS NVIDIA Setup to start the hardware-specific installation.
+
 Package: syslinuxos-ring-conky
 Version: 0.1.11
 Architecture: all

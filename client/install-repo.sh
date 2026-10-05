@@ -54,3 +54,4 @@ echo
 echo "Done. SysLinuxOS-Tools repository configured."
 echo "Available packages: distroclone, distroclone-backup, grub-btrfs,"
 echo "syslinuxos-ring-conky, syslinuxos-snapshots."
+echo "syslinuxos-nvidia-setup (NVIDIA drivers and optional CUDA on SysLinuxOS 13 / Debian 13)."

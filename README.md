@@ -47,6 +47,7 @@ sudo apt update
 | [`librepods`](https://github.com/librepods-org/librepods) | AirPods control application for Linux |
 | [`syslinuxos-ring-conky`](https://github.com/fconidi/syslinuxos-ring-conky) | Ring-style Conky theme with auto-scaling |
 | `syslinuxos-snapshots` | Btrfs snapshots + GRUB integration |
+| [`syslinuxos-nvidia-setup`](https://github.com/fconidi/syslinuxos-nvidia-setup) | NVIDIA driver setup with optional CUDA for SysLinuxOS 13 and Debian 13 amd64 |
 | `terminal-router` | tmux session recorder for AI-assisted router work |
 | [`terminal-system`](https://github.com/fconidi/terminal-system) | AI-assisted two-panel terminal (natural language -> shell commands) |
 
