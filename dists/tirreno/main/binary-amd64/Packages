@@ -156,20 +156,21 @@ Description: Standard Conky window theme for SysLinuxOS
  Configuration template: /etc/conky/conky-window.conf.
 
 Package: syslinuxos-nvidia-setup
-Version: 1.1.0
+Version: 1.1.1
 Architecture: amd64
 Depends: bash (>= 5), apt, coreutils, util-linux, yad, pkexec
 Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://syslinuxos.com
 Priority: optional
 Section: admin
-Filename: pool/main/s/syslinuxos-nvidia-setup/syslinuxos-nvidia-setup_1.1.0_amd64.deb
-Size: 22480
-SHA256: e5565cfb767fda2bd3b0803fcff267fe0ba8c005a280f672075dc23d7154f562
-SHA1: 8eb6706a03e82ce043950867e4c4c587e93b4d5a
-MD5sum: e1f6334a9288d06a6224d31b2b3a2293
-Description: NVIDIA driver setup with optional CUDA for SysLinuxOS 13
- Detect NVIDIA display adapters and install compatible APT driver packages.
+Filename: pool/main/s/syslinuxos-nvidia-setup/syslinuxos-nvidia-setup_1.1.1_amd64.deb
+Size: 22016
+SHA256: e689506c1a74e22ec7d583d784f90299a53c7e19559c0b3e098d03ed1a870de7
+SHA1: 1d172978c49c11cbcd41173a770a6ceb9ffb8a8a
+MD5sum: 446548822b749725e2e36aed48330a19
+Description: NVIDIA driver setup with optional CUDA for SysLinuxOS and Debian
+ Detect NVIDIA display adapters on SysLinuxOS 13 or Debian 13 amd64.
+ Install compatible driver packages through APT.
  Includes a YAD frontend in the SysLinuxOS Tools menu and a terminal mode.
  Automatically selects English, Italian, Spanish, German or French.
  English is used for unsupported or unset system languages.
