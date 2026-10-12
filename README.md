@@ -52,6 +52,8 @@ sudo apt update
 | `terminal-router` | tmux session recorder for AI-assisted router work |
 | [`terminal-system`](https://github.com/fconidi/terminal-system) | AI-assisted two-panel terminal (natural language -> shell commands) |
 
+Wifi Analyzer guides: [English](https://syslinuxos.com/syslinuxos-wifi-analyzer-installation-usage-guide/) | [Italiano](https://francoconidi.it/syslinuxos-wifi-analyzer-guida-installazione-utilizzo/).
+
 > **Note on `grub-btrfs`**: it is an override of the Debian version. To prevent
 > a Debian update (numerically higher version) from replacing it,
 > `install-repo.sh` installs a pin in `/etc/apt/preferences.d/99-syslinuxos-tools.pref`
