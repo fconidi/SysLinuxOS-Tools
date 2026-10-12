@@ -21,6 +21,9 @@ for deb in "$@"; do
     reprepro -b "$BASE" includedeb "$SUITE" "$deb"
 done
 
+# Retry index export even when a previous import succeeded but signing failed.
+reprepro -b "$BASE" export "$SUITE"
+
 echo
 echo "==> Repository status:"
 reprepro -b "$BASE" list "$SUITE"
