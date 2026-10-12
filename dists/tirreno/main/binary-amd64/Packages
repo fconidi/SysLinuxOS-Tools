@@ -256,6 +256,28 @@ Description: Btrfs snapshots + GRUB integration for SysLinuxOS
  Activates only if rootfs is btrfs. On ext4 the package installs cleanly
  but prints a warning and does not touch the configuration.
 
+Package: syslinuxos-wifi-analyzer
+Version: 2026.10.3
+Architecture: all
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Depends: python3 (>= 3.10), python3-pyqt5 (>= 5.15), python3-pyqt5.qtmultimedia, iw (>= 5.9), pkexec
+Recommends: mate-polkit | polkit-1-auth-agent
+Conflicts: syslinuxos-wify-analyzer
+Replaces: syslinuxos-wify-analyzer
+Homepage: https://github.com/fconidi/syslinuxos-wifi-analyzer
+Installed-Size: 132
+Priority: optional
+Section: net
+Filename: pool/main/s/syslinuxos-wifi-analyzer/syslinuxos-wifi-analyzer_2026.10.3_all.deb
+Size: 27272
+SHA256: 78e7c7d64b0b8d3596c83c7b96d656da92ccab67b679424a51730cd2aa714f8b
+SHA1: 4c82fc29c6f12d1893b116514edb3cbe2cd36073
+MD5sum: 7273cd5101670d17ad208934950cc12f
+Description: WiFi signal analyzer and access point locator for SysLinuxOS
+ Discover WiFi radios and track a selected BSSID using a signal gauge,
+ recent history, peak measurements and adjustable audible feedback.
+ Includes a simulated demo and a restricted polkit-authorized scan helper.
+
 Package: terminal-router
 Version: 1.1.0
 Architecture: all

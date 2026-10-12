@@ -46,6 +46,7 @@ sudo apt update
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
 | [`librepods`](https://github.com/librepods-org/librepods) | AirPods control application for Linux |
 | [`syslinuxos-ring-conky`](https://github.com/fconidi/syslinuxos-ring-conky) | Ring-style Conky theme with auto-scaling |
+| [`syslinuxos-wifi-analyzer`](https://github.com/fconidi/syslinuxos-wifi-analyzer) | WiFi access point discovery, signal tracking and audible proximity feedback |
 | `syslinuxos-snapshots` | Btrfs snapshots + GRUB integration |
 | [`syslinuxos-nvidia-setup`](https://github.com/fconidi/syslinuxos-nvidia-setup) | NVIDIA driver setup with optional CUDA for SysLinuxOS 13 and Debian 13 amd64 |
 | `terminal-router` | tmux session recorder for AI-assisted router work |
