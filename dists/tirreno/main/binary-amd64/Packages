@@ -155,6 +155,28 @@ Description: Standard Conky window theme for SysLinuxOS
  CPU bars are generated dynamically for any number of logical processors.
  Configuration template: /etc/conky/conky-window.conf.
 
+Package: syslinuxos-job-scheduler
+Version: 2026.10.1
+Architecture: amd64
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libstdc++6 (>= 5), cron | cronie, pkexec, qt6-svg-plugins, coreutils, gzip
+Recommends: polkit-1-auth-agent, qt6-translations-l10n, x-terminal-emulator
+Homepage: https://syslinuxos.com/
+Installed-Size: 728
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinuxos-job-scheduler/syslinuxos-job-scheduler_2026.10.1_amd64.deb
+Size: 286660
+SHA256: 03e3e14303d61afac1f71fef5d78f72a1da9329485a14b42790c97a0d37d8e11
+SHA1: 6788366ff6d69b2711a92b8216268a9ba1dbf5c8
+MD5sum: 5321b9eb1d6db7ed55d654a56ff4514d
+Description: Graphical job scheduling for SysLinuxOS
+ Manage user and system crontabs with a graphical schedule editor.
+ Administrator sessions require Polkit authentication.
+ Integrates with the MATE SysLinuxOS Tools menu.
+ English interface with Italian, French, German and Spanish translations.
+ Independently maintained by SysLinuxOS; distributed under GPL-3+.
+
 Package: syslinuxos-nvidia-setup
 Version: 1.1.1
 Architecture: amd64
@@ -209,6 +231,49 @@ Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  (AMD Tctl/Tdie) instead of the inaccurate acpitemp sensor.
  .
  Includes check_cpu.service which auto-detects CPU core/thread count at boot.
+
+Package: syslinuxos-samba-config
+Version: 2026.10.1
+Architecture: amd64
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), bash, python3, samba, samba-common-bin, pkexec, qt6-svg-plugins, passwd, procps, init-system-helpers
+Recommends: polkit-1-auth-agent, qt6-translations-l10n
+Homepage: https://syslinuxos.com/
+Installed-Size: 412
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinuxos-samba-config/syslinuxos-samba-config_2026.10.1_amd64.deb
+Size: 97624
+SHA256: dacde11349cede6fa9faab849f4f0e472d66e12d9c2aff16cf7611dfdf4dfb48
+SHA1: 5f609dae7e5c8c7c5dc6401c280c6b841c74e81f
+MD5sum: 27a53329ca21d09e4a8871edfffd91bf
+Description: Graphical Samba configuration for SysLinuxOS
+ Manage Samba users and usershares and control the Samba service.
+ Initialize missing configuration without creating default shares.
+ Integrates with the MATE SysLinuxOS Tools menu.
+ English interface with Italian, French, German and Spanish translations.
+ Independently maintained by SysLinuxOS; distributed under GPL-3+.
+
+Package: syslinuxos-service-manager
+Version: 2026.10.1
+Architecture: amd64
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), bash, pkexec, qt6-svg-plugins, systemd | sysvinit-core, init-system-helpers
+Recommends: polkit-1-auth-agent, qt6-translations-l10n
+Homepage: https://syslinuxos.com/
+Installed-Size: 468
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinuxos-service-manager/syslinuxos-service-manager_2026.10.1_amd64.deb
+Size: 143488
+SHA256: 4e692c0934d20b9d8fcfbf8e498c123e828c9e9322ea815f8a6bb7b3d106b44e
+SHA1: 8f4ce98b1c3b0bcacd79b4e45e0f96d4bb16d61b
+MD5sum: f86e5253c1156175361efd9f19857145
+Description: Graphical service manager for SysLinuxOS
+ Manage system and user services, inspect their status and control startup.
+ Integrates with the MATE SysLinuxOS Tools menu.
+ English interface with Italian, French, German and Spanish translations.
+ Independently maintained by SysLinuxOS; distributed under GPL-3+.
 
 Package: syslinuxos-snapshots
 Version: 0.3.16

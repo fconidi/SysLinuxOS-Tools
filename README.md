@@ -45,6 +45,9 @@ sudo apt update
 | `distroclone-backup` | Snapper backup for distroClone |
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
 | [`librepods`](https://github.com/librepods-org/librepods) | AirPods control application for Linux |
+| `syslinuxos-job-scheduler` | Graphical editor for user and system cron jobs |
+| `syslinuxos-samba-config` | Graphical management of Samba users, shares and service |
+| `syslinuxos-service-manager` | Graphical management of system and user services and startup |
 | [`syslinuxos-ring-conky`](https://github.com/fconidi/syslinuxos-ring-conky) | Ring-style Conky theme with auto-scaling |
 | [`syslinuxos-wifi-analyzer`](https://github.com/fconidi/syslinuxos-wifi-analyzer) | WiFi access point discovery, signal tracking and audible proximity feedback |
 | `syslinuxos-snapshots` | Btrfs snapshots + GRUB integration |
