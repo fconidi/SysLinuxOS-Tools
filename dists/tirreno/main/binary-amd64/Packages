@@ -129,6 +129,26 @@ Description: AirPods control application for Linux
  Upstream: https://github.com/librepods-org/librepods (GPL-3.0)
  Built from source for SysLinuxOS by Franco Conidi.
 
+Package: syslinuxos-boot-repair
+Version: 0.3.1
+Architecture: amd64
+Depends: bash (>= 5), mount, sudo, mawk | gawk, python3, python3-gi, gir1.2-gtk-3.0, pkexec, cryptsetup-bin, udisks2
+Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
+Homepage: https://syslinuxos.com
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinuxos-boot-repair/syslinuxos-boot-repair_0.3.1_amd64.deb
+Size: 26160
+SHA256: 357150ee0dfb4fc530da927ebc6257f879331e67dd00421b26d34e767207d14f
+SHA1: 1bd483ed5b414c7fbde569c732a918193830c825
+MD5sum: f85c21449a988e59990b0e1d6f220e82
+Description: repair an installed SysLinuxOS GRUB bootloader from a Live session
+ Inspects a selected SysLinuxOS installation read-only before any change.
+ Can regenerate GRUB configuration or reinstall GRUB for BIOS and 64-bit UEFI.
+ Supports Btrfs @, ext4 and XFS roots, including direct LUKS encryption.
+ Offers graphical unlocking and handles existing mounts and boot entries.
+ An exact confirmation is required before writing to the installed system.
+
 Package: syslinuxos-conky-window
 Version: 0.2.4
 Architecture: all

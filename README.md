@@ -45,6 +45,7 @@ sudo apt update
 | `distroclone-backup` | Snapper backup for distroClone |
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
 | [`librepods`](https://github.com/librepods-org/librepods) | AirPods control application for Linux |
+| `syslinuxos-boot-repair` | Graphical GRUB boot repair from a SysLinuxOS Live session |
 | `syslinuxos-job-scheduler` | Graphical editor for user and system cron jobs |
 | `syslinuxos-samba-config` | Graphical management of Samba users, shares and service |
 | `syslinuxos-service-manager` | Graphical management of system and user services and startup |
