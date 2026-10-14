@@ -129,6 +129,32 @@ Description: AirPods control application for Linux
  Upstream: https://github.com/librepods-org/librepods (GPL-3.0)
  Built from source for SysLinuxOS by Franco Conidi.
 
+Package: syslinuxos-anonimo
+Version: 2026.10.1
+Architecture: all
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Depends: python3 (>= 3.11), python3-pyqt5 (>= 5.15), libqt5svg5, tor, obfs4proxy, nftables, pkexec, adduser
+Recommends: snowflake-client, bleachbit, mate-polkit | polkit-1-auth-agent
+Homepage: https://syslinuxos.com/
+Installed-Size: 212
+Priority: optional
+Section: net
+Filename: pool/main/s/syslinuxos-anonimo/syslinuxos-anonimo_2026.10.1_all.deb
+Size: 36404
+SHA256: 3c56ceefdae695444ea2a7f68f92b49f200c939cb86f0149ea08763a695bdd8b
+SHA1: b522f0639c59dde509e5d2ae2a0db6e90fd8ad7e
+MD5sum: 63689dcf84b55115c97a41b32ee8d53f
+Description: route TCP and DNS traffic of the computer through Tor
+ SysLinuxOS Anonimo sends every TCP connection and every DNS query of the
+ computer through Tor. Everything else leaving the computer is blocked, except
+ traffic to the local network (when the direct local network option is on, as
+ by default) and DHCP. Services of this computer cannot answer hosts outside
+ the local network, and connections to the Internet already open when it
+ switches on are cut.
+ It adds its own nftables table and its own Tor instance without touching ufw,
+ resolv.conf or /etc/tor/torrc. Tray icon, the anonimo command, obfs4 and
+ snowflake bridges, optional start at boot.
+
 Package: syslinuxos-boot-repair
 Version: 0.3.1
 Architecture: amd64
