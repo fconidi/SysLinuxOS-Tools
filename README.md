@@ -43,6 +43,7 @@ sudo apt update
 | [`syslinuxos-conky-window`](https://github.com/fconidi/syslinuxos-conky-window) | Standard Conky window theme for SysLinuxOS (formerly `conky-window`, kept as transitional package) |
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
+| [`distroclone-usb`](https://github.com/fconidi/distroClone-usb) | Persistent live USB creator with a shared folder and optional encryption |
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
 | [`librepods`](https://github.com/librepods-org/librepods) | AirPods control application for Linux |
 | `syslinuxos-boot-repair` | Graphical GRUB boot repair from a SysLinuxOS Live session |
