@@ -199,7 +199,7 @@ Description: repair an installed SysLinuxOS GRUB bootloader from a Live session
  An exact confirmation is required before writing to the installed system.
 
 Package: syslinuxos-conky-window
-Version: 0.2.4
+Version: 0.2.5
 Architecture: all
 Depends: conky-all
 Recommends: lsb-release, curl, lm-sensors, x11-utils, x11-xserver-utils
@@ -210,11 +210,11 @@ Homepage: https://syslinuxos.com
 Installed-Size: 48
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.4_all.deb
-Size: 9820
-SHA256: 28209f57ac0022e3bf19799ae442c8f545e3f920cd8649b0bcbbcf947fed2acc
-SHA1: 0f426546dc0d569af0d8b1a9dceb476a7b931730
-MD5sum: e998d550c968d326a216401907031479
+Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.5_all.deb
+Size: 9832
+SHA256: a108b5197d93acd3e6fae203025e508de0db1fbd960832431dfb068797796f99
+SHA1: da3fc25a28a0eee479657fe08c55114311b55367
+MD5sum: 9855bbbe437635a6c538c679404b53d6
 Description: Standard Conky window theme for SysLinuxOS
  System monitor panel (CPU per-core, top processes, memory, filesystem,
  network) integrated into the System > Monitor menu of SysLinuxOS.
