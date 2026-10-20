@@ -104,10 +104,10 @@ Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-3.0, librsvg2-common
 Priority: optional
 Section: utils
 Filename: pool/main/f/file-collector/file-collector_0.2.0_all.deb
-Size: 70976
-SHA256: e556d53bbb6c2fa0ecc3fcd53acbe28d77468d03585b690075d693f0111e2008
-SHA1: 13ed4f4b6b210b82c2be986b3f61d58d1b559a28
-MD5sum: f0e64fda818473b5dbd3e1829700052a
+Size: 71056
+SHA256: ad404648402698979527f47f9bfe762e43d6b4ae64fe93ad9cf278b8f0e98c55
+SHA1: d1cd3b0678e144f3db89609330b3a3d7484400c5
+MD5sum: b08a8f531e3b53d4f19c682d4db4cc1b
 Description: Gather files from subfolders into one destination
  Native desktop application with recursive search, collection previews,
  non-overwriting moves and assisted restore.
