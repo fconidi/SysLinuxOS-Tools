@@ -96,6 +96,22 @@ Description: Create persistent live USB drives from Debian and Ubuntu desktop IS
  Supports recognized Debian live-boot and Ubuntu casper profiles.
  Requires Secure Boot to be disabled. MX/antiX is not yet supported.
 
+Package: file-collector
+Version: 0.2.0
+Architecture: all
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-3.0, librsvg2-common
+Priority: optional
+Section: utils
+Filename: pool/main/f/file-collector/file-collector_0.2.0_all.deb
+Size: 70976
+SHA256: e556d53bbb6c2fa0ecc3fcd53acbe28d77468d03585b690075d693f0111e2008
+SHA1: 13ed4f4b6b210b82c2be986b3f61d58d1b559a28
+MD5sum: f0e64fda818473b5dbd3e1829700052a
+Description: Gather files from subfolders into one destination
+ Native desktop application with recursive search, collection previews,
+ non-overwriting moves and assisted restore.
+
 Package: grub-btrfs
 Version: 4.14-1syslinuxos1
 Architecture: all

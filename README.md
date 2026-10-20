@@ -44,6 +44,7 @@ sudo apt update
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
 | [`distroclone-usb`](https://github.com/fconidi/distroClone-usb) | Persistent live USB creator with a shared folder and optional encryption |
+| [`file-collector`](https://github.com/fconidi/file-collector) | Gather files scattered across many subfolders into one destination |
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
 | [`librepods`](https://github.com/librepods-org/librepods) | AirPods control application for Linux |
 | `syslinuxos-boot-repair` | Graphical GRUB boot repair from a SysLinuxOS Live session |
