@@ -47,6 +47,7 @@ sudo apt update
 | [`file-collector`](https://github.com/fconidi/file-collector) | Gather files scattered across many subfolders into one destination |
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
 | [`librepods`](https://github.com/librepods-org/librepods) | AirPods control application for Linux |
+| [`syslinuxos-boot`](https://github.com/fconidi/syslinuxos/tree/master/boot-options) | Graphical GRUB menu settings and Plymouth splash configuration for installed SysLinuxOS systems |
 | `syslinuxos-boot-repair` | Graphical GRUB boot repair from a SysLinuxOS Live session |
 | [`syslinuxos-anonimo`](https://github.com/fconidi/syslinuxos-anonimo) | Routes all TCP and DNS traffic through Tor with one click (own nftables table and Tor instance) |
 | `syslinuxos-job-scheduler` | Graphical editor for user and system cron jobs |
