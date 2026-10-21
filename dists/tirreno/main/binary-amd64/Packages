@@ -194,6 +194,24 @@ Description: route TCP and DNS traffic of the computer through Tor
  resolv.conf or /etc/tor/torrc. Tray icon, the anonimo command, obfs4 and
  snowflake bridges, optional start at boot.
 
+Package: syslinuxos-boot
+Version: 0.2.0
+Architecture: amd64
+Depends: libc6, libqt6core6t64, libqt6gui6, libqt6widgets6, qt6-svg-plugins, pkexec, grub-common, grub2-common
+Recommends: plymouth, plymouth-themes, plymouth-x11
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Homepage: https://syslinuxos.com
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinuxos-boot/syslinuxos-boot_0.2.0_amd64.deb
+Size: 205012
+SHA256: 8908cba3a70697c762235f8cd0c2a214961cade1a2f42e43b23cc0751848f52f
+SHA1: 4c74f8c7ec1e58bf1aee3b182b1257c48d1f55ec
+MD5sum: 6408b591b9e0d9fda2247a6d12e1f69f
+Description: graphical boot settings for installed SysLinuxOS systems
+ Configure GRUB menu choices, kernel parameters and appearance, and optional
+ Plymouth splash settings. Based on MX Boot Options by the MX Linux authors.
+
 Package: syslinuxos-boot-repair
 Version: 0.3.1
 Architecture: amd64
