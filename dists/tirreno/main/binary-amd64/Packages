@@ -379,7 +379,7 @@ Description: Graphical service manager for SysLinuxOS
  Independently maintained by SysLinuxOS; distributed under GPL-3+.
 
 Package: syslinuxos-snapshots
-Version: 0.3.16
+Version: 0.3.17
 Architecture: all
 Depends: snapper (>= 0.10), grub-btrfs (>= 4.14), inotify-tools, btrfs-progs, util-linux
 Recommends: distroclone-backup
@@ -388,11 +388,11 @@ Homepage: https://github.com/franco-conidi/syslinuxos
 Installed-Size: 48
 Priority: optional
 Section: admin
-Filename: pool/main/s/syslinuxos-snapshots/syslinuxos-snapshots_0.3.16_all.deb
-Size: 13980
-SHA256: 06ac43d090a905f4c98c0fa63b6028bbbc7efe80f8136e2f229b1518451a32a0
-SHA1: 8da0a95ddef1dec30fd0cf3b42295498d6d11b50
-MD5sum: eb363b8cd22aabcbb07a3b81a1c8ba5f
+Filename: pool/main/s/syslinuxos-snapshots/syslinuxos-snapshots_0.3.17_all.deb
+Size: 13940
+SHA256: d65cd9f976a7a18a6221944d42fe72f7cc42e20fe53e2130c17e8e680b5a29d8
+SHA1: 9b0a6a49399dbc9b0c4c328d0cb821b63a5462cd
+MD5sum: dc6e4dc1c8ea894779cda6033def479f
 Description: Btrfs snapshots + GRUB integration for SysLinuxOS
  Meta-package that integrates snapper, grub-btrfs and the syslinuxos-rollback
  helper to provide automatic GRUB-bootable snapshots with rollback support.
