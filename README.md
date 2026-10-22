@@ -55,7 +55,7 @@ sudo apt update
 | `syslinuxos-service-manager` | Graphical management of system and user services and startup |
 | [`syslinuxos-ring-conky`](https://github.com/fconidi/syslinuxos-ring-conky) | Ring-style Conky theme with auto-scaling |
 | [`syslinuxos-wifi-analyzer`](https://github.com/fconidi/syslinuxos-wifi-analyzer) | WiFi access point discovery, signal tracking and audible proximity feedback |
-| `syslinuxos-snapshots` | Btrfs snapshots + GRUB integration |
+| `syslinuxos-snapshots` | Btrfs snapshots and rollback: snapper, snapshots in the GRUB menu and the `syslinuxos-rollback` helper (distributed only through this repository) |
 | [`syslinuxos-nvidia-setup`](https://github.com/fconidi/syslinuxos-nvidia-setup) | NVIDIA driver setup with optional CUDA for SysLinuxOS 13 and Debian 13 amd64 |
 | `terminal-router` | tmux session recorder for AI-assisted router work |
 | [`terminal-system`](https://github.com/fconidi/terminal-system) | AI-assisted two-panel terminal (natural language -> shell commands) |
