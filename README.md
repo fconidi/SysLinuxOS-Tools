@@ -43,6 +43,7 @@ sudo apt update
 | [`syslinuxos-conky-window`](https://github.com/fconidi/syslinuxos-conky-window) | Standard Conky window theme for SysLinuxOS (formerly `conky-window`, kept as transitional package) |
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
+| `distroflash` | Create Linux and Windows bootable USB media |
 | [`distroclone-usb`](https://github.com/fconidi/distroClone-usb) | Persistent live USB creator with a shared folder and optional encryption |
 | [`file-collector`](https://github.com/fconidi/file-collector) | Gather files scattered across many subfolders into one destination |
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |

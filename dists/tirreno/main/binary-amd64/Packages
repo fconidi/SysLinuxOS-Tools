@@ -96,6 +96,23 @@ Description: Create persistent live USB drives from Debian and Ubuntu desktop IS
  Supports recognized Debian live-boot and Ubuntu casper profiles.
  Requires Secure Boot to be disabled. MX/antiX is not yet supported.
 
+Package: distroflash
+Version: 0.2.2
+Architecture: all
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, udisks2 (>= 2.9), util-linux, dosfstools, ntfs-3g, wimtools
+Recommends: polkit-1-auth-agent
+Homepage: https://github.com/fconidi/DistroFlash
+Priority: optional
+Section: utils
+Filename: pool/main/d/distroflash/distroflash_0.2.2_all.deb
+Size: 127796
+SHA256: b017378854f9af5f3dc94ddb3498ee1499a7cd7d6b264528ea0a78451ea84c84
+SHA1: c62cdd41a742d0f998435a14109210e362082fe9
+MD5sum: e4f4bba281d7d4edc97e2be4ce11980c
+Description: Create Linux and Windows bootable USB media
+ Native GTK image writer with readback verification and Windows UEFI support.
+
 Package: file-collector
 Version: 0.2.0
 Architecture: all
