@@ -249,6 +249,22 @@ Description: repair an installed SysLinuxOS GRUB bootloader from a Live session
  Offers graphical unlocking and handles existing mounts and boot entries.
  An exact confirmation is required before writing to the installed system.
 
+Package: syslinuxos-care
+Architecture: amd64
+Depends: apt, dpkg, pkexec, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 11)
+Priority: optional
+Section: admin
+Filename: pool/main/s/syslinuxos-care/syslinuxos-care_0.1.5_amd64.deb
+Size: 434124
+SHA256: 5dc8e8f558f4a1d210aa705ee00a7da0dcaec974c0c70a2df35ec04d1df53925
+SHA1: 4b9f3fe006bdd1768acecb128d76e4645308fd2b
+MD5sum: d4ca7f8e4b70546a94f2df422970587b
+Description: Desktop maintenance and monitoring for SysLinuxOS 13 and Debian 13
+Maintainer: Franco Conidi
+Recommends: mate-polkit | polkit-1-auth-agent
+Version: 0.1.5
+Installed-Size: 1054
+
 Package: syslinuxos-conky-window
 Version: 0.2.5
 Architecture: all
