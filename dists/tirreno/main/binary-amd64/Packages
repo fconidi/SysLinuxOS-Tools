@@ -113,6 +113,22 @@ MD5sum: e4f4bba281d7d4edc97e2be4ce11980c
 Description: Create Linux and Windows bootable USB media
  Native GTK image writer with readback verification and Windows UEFI support.
 
+Package: distromove
+Version: 0.1.23
+Architecture: all
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, cryptsetup, rsync, btrfs-progs (>= 6.1), e2fsprogs, dosfstools, parted, util-linux, efibootmgr, grub-efi-amd64-bin, grub-efi-amd64-signed, shim-signed, mokutil, pkexec, polkitd, gdisk, udev, initramfs-tools, dmsetup, procps, findutils
+Homepage: https://github.com/fconidi/DistroMove
+Priority: optional
+Section: utils
+Filename: pool/main/d/distromove/distromove_0.1.23_all.deb
+Size: 112336
+SHA256: 1ec7206bbfe669b9b943c38a3863411f5f703ae6e947200e4bf36ed11ee22b1f
+SHA1: d0b40c55fbec5bbf455d45cf6a62a254c0bb2020
+MD5sum: fe5d39de6f5f72b3c74e8011d5de3759
+Description: Migrate a running Debian-based system to new partitions
+ Native GTK wizard with privileged storage and boot setup.
+
 Package: file-collector
 Version: 0.2.0
 Architecture: all
