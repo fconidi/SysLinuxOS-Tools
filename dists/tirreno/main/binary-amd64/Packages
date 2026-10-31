@@ -299,6 +299,25 @@ Description: Shared desktop submenu for SysLinuxOS Conky themes
  Groups Conky theme launchers under System Tools > Conky.
  Additional themes can use the X-SysLinuxOS-Conky desktop category.
 
+Package: syslinuxos-conky-system
+Version: 0.1.0
+Architecture: all
+Depends: conky-all, python3 (>= 3.10), fonts-dejavu-core, iproute2, syslinuxos-conky-menu (>= 0.1.1)
+Recommends: x11-xserver-utils, x11-utils
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Homepage: https://github.com/fconidi/syslinuxos-conky-system
+Installed-Size: 36
+Priority: optional
+Section: x11
+Filename: pool/main/s/syslinuxos-conky-system/syslinuxos-conky-system_0.1.0_all.deb
+Size: 6728
+SHA256: a73cb26b1947455540ab253e27e56989c2264b02b6ba9660143363705f9d07c6
+SHA1: 8fb1ef4ab3b4baeea57b5f31bdc28ab2c0ef274e
+MD5sum: 1cf06aa5515a1fd74f32673c37516569
+Description: Transparent Conky-System desktop monitor for SysLinuxOS
+ Tree-style system, memory, storage, process and network information.
+ Automatically scales its layout to the active display resolution.
+
 Package: syslinuxos-conky-window
 Version: 0.2.6
 Architecture: all
