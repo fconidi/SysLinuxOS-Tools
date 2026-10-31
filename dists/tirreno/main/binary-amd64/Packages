@@ -300,20 +300,20 @@ Description: Shared desktop submenu for SysLinuxOS Conky themes
  Additional themes can use the X-SysLinuxOS-Conky desktop category.
 
 Package: syslinuxos-conky-system
-Version: 0.1.0
+Version: 0.1.1
 Architecture: all
-Depends: conky-all, python3 (>= 3.10), fonts-dejavu-core, iproute2, syslinuxos-conky-menu (>= 0.1.1)
+Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, syslinuxos-conky-menu (>= 0.1.1)
 Recommends: x11-xserver-utils, x11-utils
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Homepage: https://github.com/fconidi/syslinuxos-conky-system
 Installed-Size: 36
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-system/syslinuxos-conky-system_0.1.0_all.deb
-Size: 6728
-SHA256: a73cb26b1947455540ab253e27e56989c2264b02b6ba9660143363705f9d07c6
-SHA1: 8fb1ef4ab3b4baeea57b5f31bdc28ab2c0ef274e
-MD5sum: 1cf06aa5515a1fd74f32673c37516569
+Filename: pool/main/s/syslinuxos-conky-system/syslinuxos-conky-system_0.1.1_all.deb
+Size: 7208
+SHA256: 0e48aaa21a17f1e9aac7bfda1e09dc47ea7fe5f7780e50f3b5e0ef36bffca49c
+SHA1: 321b4c2758057f98d0cf647abd51f068ff64c6dc
+MD5sum: a1cb112d1993590eceebe7e890bda597
 Description: Transparent Conky-System desktop monitor for SysLinuxOS
  Tree-style system, memory, storage, process and network information.
  Automatically scales its layout to the active display resolution.
