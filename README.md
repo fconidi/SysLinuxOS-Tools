@@ -58,7 +58,7 @@ sudo apt update
 | `syslinuxos-job-scheduler` | Graphical editor for user and system cron jobs |
 | `syslinuxos-samba-config` | Graphical management of Samba users, shares and service |
 | `syslinuxos-service-manager` | Graphical management of system and user services and startup |
-| [`syslinuxos-ring-conky`](https://github.com/fconidi/syslinuxos-conky-ring) | Ring-style Conky theme with auto-scaling |
+| [`syslinuxos-conky-ring`](https://github.com/fconidi/syslinuxos-conky-ring) | Ring-style Conky theme with auto-scaling |
 | [`syslinuxos-wifi-analyzer`](https://github.com/fconidi/syslinuxos-wifi-analyzer) | WiFi access point discovery, signal tracking and audible proximity feedback |
 | `syslinuxos-snapshots` | Btrfs snapshots and rollback: snapper, snapshots in the GRUB menu and the `syslinuxos-rollback` helper (distributed only through this repository) |
 | [`syslinuxos-nvidia-setup`](https://github.com/fconidi/syslinuxos-nvidia-setup) | NVIDIA driver setup with optional CUDA for SysLinuxOS 13 and Debian 13 amd64 |

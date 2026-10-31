@@ -299,6 +299,40 @@ Description: Shared desktop submenu for SysLinuxOS Conky themes
  Groups Conky theme launchers under System Tools > Conky.
  Additional themes can use the X-SysLinuxOS-Conky desktop category.
 
+Package: syslinuxos-conky-ring
+Version: 0.2.0
+Architecture: all
+Depends: syslinuxos-conky-menu (>= 0.1.0), conky-all, x11-xserver-utils
+Recommends: x11-utils, curl, lm-sensors
+Replaces: syslinuxos-ring-conky (<< 0.2.0)
+Breaks: syslinuxos-ring-conky (<< 0.2.0)
+Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
+Homepage: https://github.com/fconidi/syslinuxos-conky-ring
+Installed-Size: 160
+Priority: optional
+Section: x11
+Filename: pool/main/s/syslinuxos-conky-ring/syslinuxos-conky-ring_0.2.0_all.deb
+Size: 30600
+SHA256: e0dcf53fa50aa80822d89dd69e17423fdfdbe3eabf1e5d4ddef5190e65f5778f
+SHA1: 2427f9a06bab828cc631abc1ee8f22b5a9db87f2
+MD5sum: 959a9d5c9e63f225470fe60aa42aeb9c
+Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
+ Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
+ integrated into the System Tools > Conky menu of SysLinuxOS.
+ .
+ Fork of Auzia Conky by Zineddine SAIBI (GPL-3.0,
+ https://github.com/SZinedine/auzia-conky), itself based on the
+ Namoudaj Conky template by the same author. Forked and packaged for
+ SysLinuxOS by Franco Conidi (edmond) <fconidi@gmail.com>.
+ .
+ Added features: automatic screen resolution detection (xrandr, fallback
+ xdpyinfo) and proportional scaling of the window and drawing relative to
+ the 1920x1080 reference layout, via cairo_scale. Override: CONKY_RING_SCALE.
+ CPU temperature fixed to use coretemp (Intel Package id 0) or k10temp
+ (AMD Tctl/Tdie) instead of the inaccurate acpitemp sensor.
+ .
+ Includes check_cpu.service which auto-detects CPU core/thread count at boot.
+
 Package: syslinuxos-conky-system
 Version: 0.1.1
 Architecture: all
@@ -390,36 +424,22 @@ Description: NVIDIA driver setup with optional CUDA for SysLinuxOS and Debian
  launch SysLinuxOS NVIDIA Setup to start the hardware-specific installation.
 
 Package: syslinuxos-ring-conky
-Version: 0.1.12
+Version: 0.2.0
 Architecture: all
-Depends: syslinuxos-conky-menu (>= 0.1.0), conky-all, x11-xserver-utils
-Recommends: x11-utils, curl, lm-sensors
-Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
-Homepage: https://syslinuxos.com
-Installed-Size: 160
+Depends: syslinuxos-conky-ring (>= 0.2.0)
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Homepage: https://github.com/fconidi/syslinuxos-conky-ring
+Installed-Size: 1
 Priority: optional
-Section: x11
-Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.12_all.deb
-Size: 30328
-SHA256: e0bcb16ab7d3a47bf3bddc9dbd678fbe6c5bdf76dbc3ae744fc1f45fabd693b7
-SHA1: 1590a0256a337e5438980561eacbe53aa161b646
-MD5sum: 35a9785287aa5277993692a684853a1c
-Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
- Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
- integrated into the System Tools > Conky menu of SysLinuxOS.
- .
- Fork of Auzia Conky by Zineddine SAIBI (GPL-3.0,
- https://github.com/SZinedine/auzia-conky), itself based on the
- Namoudaj Conky template by the same author. Forked and packaged for
- SysLinuxOS by Franco Conidi (edmond) <fconidi@gmail.com>.
- .
- Added features: automatic screen resolution detection (xrandr, fallback
- xdpyinfo) and proportional scaling of the window and drawing relative to
- the 1920x1080 reference layout, via cairo_scale. Override: CONKY_RING_SCALE.
- CPU temperature fixed to use coretemp (Intel Package id 0) or k10temp
- (AMD Tctl/Tdie) instead of the inaccurate acpitemp sensor.
- .
- Includes check_cpu.service which auto-detects CPU core/thread count at boot.
+Section: oldlibs
+Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.2.0_all.deb
+Size: 1120
+SHA256: 9e71c66693a62951407bb65b7fbfacdbd39312dd438fa95f97fdd6f430fc00ec
+SHA1: e0d96ed8c86df2c01627064caec96e637f11002b
+MD5sum: 43ebcffcd66856c89cdbaa2055cd9db0
+Description: transitional package for syslinuxos-conky-ring
+ Installs the renamed SysLinuxOS Conky Ring package.
+ This compatibility package can be removed after the upgrade.
 
 Package: syslinuxos-samba-config
 Version: 2026.10.1
