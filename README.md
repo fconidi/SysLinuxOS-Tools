@@ -41,6 +41,7 @@ sudo apt update
 | Package | Description |
 |---|---|
 | [`syslinuxos-conky-window`](https://github.com/fconidi/syslinuxos-conky-window) | Standard Conky window theme for SysLinuxOS (formerly `conky-window`, kept as transitional package) |
+| `syslinuxos-conky-menu` | Shared System Tools > Conky submenu for Conky themes |
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
 | `distroflash` | Create Linux and Windows bootable USB media |

@@ -281,10 +281,27 @@ Recommends: mate-polkit | polkit-1-auth-agent
 Version: 0.1.5
 Installed-Size: 1054
 
-Package: syslinuxos-conky-window
-Version: 0.2.5
+Package: syslinuxos-conky-menu
+Version: 0.1.0
 Architecture: all
-Depends: conky-all
+Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
+Homepage: https://github.com/fconidi/syslinuxos-conky-window
+Installed-Size: 12
+Priority: optional
+Section: x11
+Filename: pool/main/s/syslinuxos-conky-menu/syslinuxos-conky-menu_0.1.0_all.deb
+Size: 2204
+SHA256: 39511329e74c83d6cb15838410be9b1be10b36c2dc4dca2e96144e31bc7882cc
+SHA1: 97d8609c2c7c7e7bbe2d7c57813c91e8b59cf231
+MD5sum: c2a6a03cca63462059a9cdbec04ec3ac
+Description: Shared desktop submenu for SysLinuxOS Conky themes
+ Groups Conky theme launchers under System Tools > Conky.
+ Additional themes can use the X-SysLinuxOS-Conky desktop category.
+
+Package: syslinuxos-conky-window
+Version: 0.2.6
+Architecture: all
+Depends: syslinuxos-conky-menu (>= 0.1.0), conky-all
 Recommends: lsb-release, curl, lm-sensors, x11-utils, x11-xserver-utils
 Replaces: conky-window (<< 0.2.0)
 Breaks: conky-window (<< 0.2.0)
@@ -293,14 +310,14 @@ Homepage: https://syslinuxos.com
 Installed-Size: 48
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.5_all.deb
-Size: 9832
-SHA256: a108b5197d93acd3e6fae203025e508de0db1fbd960832431dfb068797796f99
-SHA1: da3fc25a28a0eee479657fe08c55114311b55367
-MD5sum: 9855bbbe437635a6c538c679404b53d6
+Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.6_all.deb
+Size: 9824
+SHA256: db6b4a1f74abd35be198e46c9c9116a178e0bfd82e560c4d7deee72cecac1b44
+SHA1: d5ae12f16b54c8c89c243100da110d779fa19071
+MD5sum: 88596f91d8148191b936ac31109e1262
 Description: Standard Conky window theme for SysLinuxOS
  System monitor panel (CPU per-core, top processes, memory, filesystem,
- network) integrated into the System > Monitor menu of SysLinuxOS.
+ network) integrated into the System Tools > Conky menu of SysLinuxOS.
  .
  Auto-scales font sizes, widths and bar dimensions to the screen resolution
  at startup (reference 1920x1080, override with CONKY_WINDOW_SCALE=<n>).
@@ -353,23 +370,23 @@ Description: NVIDIA driver setup with optional CUDA for SysLinuxOS and Debian
  launch SysLinuxOS NVIDIA Setup to start the hardware-specific installation.
 
 Package: syslinuxos-ring-conky
-Version: 0.1.11
+Version: 0.1.12
 Architecture: all
-Depends: conky-all, x11-xserver-utils
+Depends: syslinuxos-conky-menu (>= 0.1.0), conky-all, x11-xserver-utils
 Recommends: x11-utils, curl, lm-sensors
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://syslinuxos.com
 Installed-Size: 160
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.11_all.deb
-Size: 30444
-SHA256: d61c18467d3258c58f8f3f7bb2245c44f13f26c0a64c9f91c4e901241f4f9ca9
-SHA1: a72e427952580f679ecf93c98c6080e99f8b99ff
-MD5sum: 86366449bd1c51ebc706f9668721d59a
+Filename: pool/main/s/syslinuxos-ring-conky/syslinuxos-ring-conky_0.1.12_all.deb
+Size: 30328
+SHA256: e0bcb16ab7d3a47bf3bddc9dbd678fbe6c5bdf76dbc3ae744fc1f45fabd693b7
+SHA1: 1590a0256a337e5438980561eacbe53aa161b646
+MD5sum: 35a9785287aa5277993692a684853a1c
 Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
- integrated into the System > Monitor menu of SysLinuxOS.
+ integrated into the System Tools > Conky menu of SysLinuxOS.
  .
  Fork of Auzia Conky by Zineddine SAIBI (GPL-3.0,
  https://github.com/SZinedine/auzia-conky), itself based on the
