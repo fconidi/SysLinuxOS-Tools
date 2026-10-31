@@ -42,6 +42,7 @@ sudo apt update
 |---|---|
 | [`syslinuxos-conky-window`](https://github.com/fconidi/syslinuxos-conky-window) | Standard Conky window theme for SysLinuxOS (formerly `conky-window`, kept as transitional package) |
 | [`syslinuxos-conky-system`](https://github.com/fconidi/syslinuxos-conky-system) | Transparent tree-style system monitor with automatic display scaling |
+| [`syslinuxos-conky-system-two`](https://github.com/fconidi/syslinuxos-conky-system-two) | Transparent monitor with distribution logo, digital clock and six blue and white sections |
 | `syslinuxos-conky-menu` | Shared System Tools > Conky submenu for Conky themes |
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
