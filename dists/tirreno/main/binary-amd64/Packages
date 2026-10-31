@@ -282,18 +282,19 @@ Version: 0.1.5
 Installed-Size: 1054
 
 Package: syslinuxos-conky-menu
-Version: 0.1.0
+Version: 0.1.1
 Architecture: all
+Depends: hicolor-icon-theme
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://github.com/fconidi/syslinuxos-conky-window
-Installed-Size: 12
+Installed-Size: 16
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-menu/syslinuxos-conky-menu_0.1.0_all.deb
-Size: 2204
-SHA256: 39511329e74c83d6cb15838410be9b1be10b36c2dc4dca2e96144e31bc7882cc
-SHA1: 97d8609c2c7c7e7bbe2d7c57813c91e8b59cf231
-MD5sum: c2a6a03cca63462059a9cdbec04ec3ac
+Filename: pool/main/s/syslinuxos-conky-menu/syslinuxos-conky-menu_0.1.1_all.deb
+Size: 2584
+SHA256: ff9ab3bf6491ba0962ae6bb83ee0c70082bbd8be1c67d6c2c779d459d51febaf
+SHA1: 8991fa46686d117a845688044e01f965db20ebb9
+MD5sum: 681889161d6d9993e60956f639a04d98
 Description: Shared desktop submenu for SysLinuxOS Conky themes
  Groups Conky theme launchers under System Tools > Conky.
  Additional themes can use the X-SysLinuxOS-Conky desktop category.
