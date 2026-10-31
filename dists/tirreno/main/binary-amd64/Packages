@@ -300,22 +300,22 @@ Description: Shared desktop submenu for SysLinuxOS Conky themes
  Additional themes can use the X-SysLinuxOS-Conky desktop category.
 
 Package: syslinuxos-conky-ring
-Version: 0.2.0
+Version: 0.2.1
 Architecture: all
-Depends: syslinuxos-conky-menu (>= 0.1.0), conky-all, x11-xserver-utils
+Depends: syslinuxos-conky-menu (>= 0.1.1), conky-all, x11-xserver-utils
 Recommends: x11-utils, curl, lm-sensors
 Replaces: syslinuxos-ring-conky (<< 0.2.0)
 Breaks: syslinuxos-ring-conky (<< 0.2.0)
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://github.com/fconidi/syslinuxos-conky-ring
-Installed-Size: 160
+Installed-Size: 152
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-ring/syslinuxos-conky-ring_0.2.0_all.deb
-Size: 30600
-SHA256: e0dcf53fa50aa80822d89dd69e17423fdfdbe3eabf1e5d4ddef5190e65f5778f
-SHA1: 2427f9a06bab828cc631abc1ee8f22b5a9db87f2
-MD5sum: 959a9d5c9e63f225470fe60aa42aeb9c
+Filename: pool/main/s/syslinuxos-conky-ring/syslinuxos-conky-ring_0.2.1_all.deb
+Size: 28724
+SHA256: a11c8cf6ba34fcb1a9984b3ddcd31eec91ed5d9d51ed983df9c913867acb2ad2
+SHA1: a98b6010ae2085d1561c7eac56f140a9da58f209
+MD5sum: 62eb9d5515854d434f29420bbbdc1c0c
 Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
  integrated into the System Tools > Conky menu of SysLinuxOS.
@@ -373,22 +373,22 @@ Description: Transparent Conky-System-Two desktop monitor
  Automatically scales all visual elements to the monitor resolution.
 
 Package: syslinuxos-conky-window
-Version: 0.2.6
+Version: 0.2.7
 Architecture: all
-Depends: syslinuxos-conky-menu (>= 0.1.0), conky-all
+Depends: syslinuxos-conky-menu (>= 0.1.1), conky-all
 Recommends: lsb-release, curl, lm-sensors, x11-utils, x11-xserver-utils
 Replaces: conky-window (<< 0.2.0)
 Breaks: conky-window (<< 0.2.0)
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://syslinuxos.com
-Installed-Size: 48
+Installed-Size: 40
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.6_all.deb
-Size: 9824
-SHA256: db6b4a1f74abd35be198e46c9c9116a178e0bfd82e560c4d7deee72cecac1b44
-SHA1: d5ae12f16b54c8c89c243100da110d779fa19071
-MD5sum: 88596f91d8148191b936ac31109e1262
+Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.7_all.deb
+Size: 7976
+SHA256: be2aeeaa74db41950cff31f9a8878071589a9c4e643cf9f172fcc77114926989
+SHA1: bf5ece7700e4e0ace830bc34a38b6ef5d43e706e
+MD5sum: a145f9a27ca5e3682d353b28d7f5dfcd
 Description: Standard Conky window theme for SysLinuxOS
  System monitor panel (CPU per-core, top processes, memory, filesystem,
  network) integrated into the System Tools > Conky menu of SysLinuxOS.
