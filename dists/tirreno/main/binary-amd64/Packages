@@ -300,7 +300,7 @@ Description: Shared desktop submenu for SysLinuxOS Conky themes
  Additional themes can use the X-SysLinuxOS-Conky desktop category.
 
 Package: syslinuxos-conky-ring
-Version: 0.2.1
+Version: 0.2.2
 Architecture: all
 Depends: syslinuxos-conky-menu (>= 0.1.1), conky-all, x11-xserver-utils
 Recommends: x11-utils, curl, lm-sensors
@@ -308,14 +308,14 @@ Replaces: syslinuxos-ring-conky (<< 0.2.0)
 Breaks: syslinuxos-ring-conky (<< 0.2.0)
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://github.com/fconidi/syslinuxos-conky-ring
-Installed-Size: 152
+Installed-Size: 204
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-ring/syslinuxos-conky-ring_0.2.1_all.deb
-Size: 28724
-SHA256: a11c8cf6ba34fcb1a9984b3ddcd31eec91ed5d9d51ed983df9c913867acb2ad2
-SHA1: a98b6010ae2085d1561c7eac56f140a9da58f209
-MD5sum: 62eb9d5515854d434f29420bbbdc1c0c
+Filename: pool/main/s/syslinuxos-conky-ring/syslinuxos-conky-ring_0.2.2_all.deb
+Size: 28848
+SHA256: e8c7e00ce822cca73eb81967906b13c1e1827c61ff414d05ae0b509bab63620a
+SHA1: 5e9a437ea6b29de8baeab5bb54d52c608a548adf
+MD5sum: 248afac2e8adbcf67cdb4a91419fa673
 Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
  integrated into the System Tools > Conky menu of SysLinuxOS.
@@ -373,7 +373,7 @@ Description: Transparent Conky-System-Two desktop monitor
  Automatically scales all visual elements to the monitor resolution.
 
 Package: syslinuxos-conky-window
-Version: 0.2.7
+Version: 0.2.8
 Architecture: all
 Depends: syslinuxos-conky-menu (>= 0.1.1), conky-all
 Recommends: lsb-release, curl, lm-sensors, x11-utils, x11-xserver-utils
@@ -381,21 +381,22 @@ Replaces: conky-window (<< 0.2.0)
 Breaks: conky-window (<< 0.2.0)
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://syslinuxos.com
-Installed-Size: 40
+Installed-Size: 80
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.7_all.deb
-Size: 7976
-SHA256: be2aeeaa74db41950cff31f9a8878071589a9c4e643cf9f172fcc77114926989
-SHA1: bf5ece7700e4e0ace830bc34a38b6ef5d43e706e
-MD5sum: a145f9a27ca5e3682d353b28d7f5dfcd
+Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.8_all.deb
+Size: 8068
+SHA256: 9b5ec7843f7f39e81ad0a7381e303c7865011e8f7cd53b6a472185a00ce45122
+SHA1: a355e80fabbccaecc66e3b95e3285b6b348dd04c
+MD5sum: e01795010f80699d15acaab3c7dc0611
 Description: Standard Conky window theme for SysLinuxOS
  System monitor panel (CPU per-core, top processes, memory, filesystem,
  network) integrated into the System Tools > Conky menu of SysLinuxOS.
  .
  Auto-scales font sizes, widths and bar dimensions to the screen resolution
  at startup (reference 1920x1080, override with CONKY_WINDOW_SCALE=<n>).
- CPU bars are generated dynamically for any number of logical processors.
+ CPU bars follow the logical processor count; above 32, one aggregate bar
+ keeps the panel compact.
  Configuration template: /etc/conky/conky-window.conf.
 
 Package: syslinuxos-job-scheduler
@@ -549,6 +550,26 @@ Description: Btrfs snapshots + GRUB integration for SysLinuxOS
  .
  Activates only if rootfs is btrfs. On ext4 the package installs cleanly
  but prints a warning and does not touch the configuration.
+
+Package: syslinuxos-system-three
+Version: 0.1.0
+Architecture: all
+Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, python3-gi, gir1.2-gdkpixbuf-2.0, librsvg2-common, syslinuxos-conky-menu (>= 0.1.1)
+Recommends: desktop-base, x11-xserver-utils, x11-utils
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Homepage: https://github.com/fconidi/syslinuxos-system-three
+Installed-Size: 100
+Priority: optional
+Section: x11
+Filename: pool/main/s/syslinuxos-system-three/syslinuxos-system-three_0.1.0_all.deb
+Size: 11476
+SHA256: 4d56fdf0625e4b3fee33f214744d3e7fe191c43bb6fd60b3bb9271b7eff3d753
+SHA1: cab9d1adfe1bb932db483fcf5b78ad3912ed7fb2
+MD5sum: fc2395abda872bd97c7daa3f07dab9d3
+Description: Transparent SysLinuxOS-System-Three desktop monitor
+ Distribution logo, digital clock and cyan rings for battery, CPU,
+ storage, memory and network information.
+ Automatically scales all visual elements to the monitor resolution.
 
 Package: syslinuxos-wifi-analyzer
 Version: 2026.10.3
