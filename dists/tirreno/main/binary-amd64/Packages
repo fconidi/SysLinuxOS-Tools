@@ -552,7 +552,7 @@ Description: Btrfs snapshots + GRUB integration for SysLinuxOS
  but prints a warning and does not touch the configuration.
 
 Package: syslinuxos-system-three
-Version: 0.1.0
+Version: 0.1.1
 Architecture: all
 Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, python3-gi, gir1.2-gdkpixbuf-2.0, librsvg2-common, syslinuxos-conky-menu (>= 0.1.1)
 Recommends: desktop-base, x11-xserver-utils, x11-utils
@@ -561,11 +561,11 @@ Homepage: https://github.com/fconidi/syslinuxos-system-three
 Installed-Size: 100
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-system-three/syslinuxos-system-three_0.1.0_all.deb
-Size: 11476
-SHA256: 4d56fdf0625e4b3fee33f214744d3e7fe191c43bb6fd60b3bb9271b7eff3d753
-SHA1: cab9d1adfe1bb932db483fcf5b78ad3912ed7fb2
-MD5sum: fc2395abda872bd97c7daa3f07dab9d3
+Filename: pool/main/s/syslinuxos-system-three/syslinuxos-system-three_0.1.1_all.deb
+Size: 11508
+SHA256: da2a72ae4e28467c4f4d6733a9872229f473e73e6e462be79511a7f2288c032f
+SHA1: 2c2e1e0dbf745b39c9006f92cd507f94d42f8f9c
+MD5sum: 5dfe111d646354ddd8ddacf66c002b89
 Description: Transparent SysLinuxOS-System-Three desktop monitor
  Distribution logo, digital clock and cyan rings for battery, CPU,
  storage, memory and network information.
