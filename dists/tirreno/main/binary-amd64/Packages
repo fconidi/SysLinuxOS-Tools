@@ -352,6 +352,26 @@ Description: Transparent Conky-System desktop monitor for SysLinuxOS
  Tree-style system, memory, storage, process and network information.
  Automatically scales its layout to the active display resolution.
 
+Package: syslinuxos-conky-system-five
+Version: 0.1.0
+Architecture: all
+Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, python3-gi, gir1.2-gdkpixbuf-2.0, librsvg2-common, syslinuxos-conky-menu (>= 0.1.1)
+Recommends: desktop-base, x11-xserver-utils, x11-utils
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Homepage: https://github.com/fconidi/syslinuxos-conky-system-five
+Installed-Size: 100
+Priority: optional
+Section: x11
+Filename: pool/main/s/syslinuxos-conky-system-five/syslinuxos-conky-system-five_0.1.0_all.deb
+Size: 11168
+SHA256: 29817662a267ae78d9844e879e5fe371b8225e2a84271c913136247455bff8cb
+SHA1: 9301a8340eb70b648a3f49e2b95000313ea44b6a
+MD5sum: c5acf9f4e3b3d0e12d8cf4915345130d
+Description: Transparent SysLinuxOS-Conky-System-Five desktop monitor
+ Distribution logo, digital clock and blue rings for battery, CPU,
+ storage, memory and network information.
+ Automatically scales all visual elements to the monitor resolution.
+
 Package: syslinuxos-conky-system-two
 Version: 0.1.1
 Architecture: all
