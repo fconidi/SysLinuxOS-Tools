@@ -300,7 +300,7 @@ Description: Shared desktop submenu for SysLinuxOS Conky themes
  Additional themes can use the X-SysLinuxOS-Conky desktop category.
 
 Package: syslinuxos-conky-ring
-Version: 0.2.5
+Version: 0.2.7
 Architecture: all
 Depends: syslinuxos-conky-menu (>= 0.1.1), conky-all, x11-xserver-utils, python3
 Recommends: x11-utils, curl, lm-sensors
@@ -311,11 +311,11 @@ Homepage: https://github.com/fconidi/syslinuxos-conky-ring
 Installed-Size: 204
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-ring/syslinuxos-conky-ring_0.2.5_all.deb
-Size: 29232
-SHA256: 2d497946b3f7eeac0245b8f24ce07cf89a356e76e7d4ef17fdc729e64ae168cb
-SHA1: 55043d1280850c1241200335b9bd340dfa242e0e
-MD5sum: d764ec460f7d8a96b59481f8db5f1dc3
+Filename: pool/main/s/syslinuxos-conky-ring/syslinuxos-conky-ring_0.2.7_all.deb
+Size: 29220
+SHA256: d2a59c66047755c665d5b403b98d5454d6a218fe67482e9e6431a4d0acda3a11
+SHA1: f9836f2bc14ab87b5b4178970751d38e41e6113b
+MD5sum: 27652b37343baa8284eea9dd6d81898f
 Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
  integrated into the System Tools > Conky menu of SysLinuxOS.
@@ -334,46 +334,46 @@ Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Includes check_cpu.service which auto-detects CPU core/thread count at boot.
 
 Package: syslinuxos-conky-system
-Version: 0.1.1
+Version: 0.1.2
 Architecture: all
 Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, syslinuxos-conky-menu (>= 0.1.1)
 Recommends: x11-xserver-utils, x11-utils
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Homepage: https://github.com/fconidi/syslinuxos-conky-system
-Installed-Size: 36
+Installed-Size: 80
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-system/syslinuxos-conky-system_0.1.1_all.deb
+Filename: pool/main/s/syslinuxos-conky-system/syslinuxos-conky-system_0.1.2_all.deb
 Size: 7208
-SHA256: 0e48aaa21a17f1e9aac7bfda1e09dc47ea7fe5f7780e50f3b5e0ef36bffca49c
-SHA1: 321b4c2758057f98d0cf647abd51f068ff64c6dc
-MD5sum: a1cb112d1993590eceebe7e890bda597
+SHA256: b52c4a43b7edf5f8145f1898067e5192cfb0db6bfc4f29549ffd3f68455e09ec
+SHA1: dfefdd62684d5d9062b7d498cd81313088643f06
+MD5sum: 80b1dfb8e56ea6a621be969954988d29
 Description: Transparent Conky-System desktop monitor for SysLinuxOS
  Tree-style system, memory, storage, process and network information.
  Automatically scales its layout to the active display resolution.
 
 Package: syslinuxos-conky-system-two
-Version: 0.1.0
+Version: 0.1.1
 Architecture: all
 Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, python3-gi, gir1.2-gdkpixbuf-2.0, librsvg2-common, syslinuxos-conky-menu (>= 0.1.1)
 Recommends: desktop-base, x11-xserver-utils, x11-utils
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Homepage: https://github.com/fconidi/syslinuxos-conky-system-two
-Installed-Size: 56
+Installed-Size: 100
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-system-two/syslinuxos-conky-system-two_0.1.0_all.deb
-Size: 11132
-SHA256: 3112aa43402ce90790312575c163f1d38d6c050f68740f0ba6076fa6adad60e4
-SHA1: dbdf7698df33524e96d9b2e480b2c602852990ab
-MD5sum: 931d55502ef88e8c1a0f91cfedcd8b5b
+Filename: pool/main/s/syslinuxos-conky-system-two/syslinuxos-conky-system-two_0.1.1_all.deb
+Size: 11152
+SHA256: 6b8e44eecdbcc7f813fc0a23a52c97ecee1cb5bd030dda9a1effebd5ad6839cf
+SHA1: f5c9dfab59ce1a0e53afc143881fd432b591953e
+MD5sum: a02b7ce176369fc6c34abcfbb60a4ac1
 Description: Transparent Conky-System-Two desktop monitor
  Distribution logo, digital clock and modern vector indicators for
  system, CPU, memory, processes, storage and network information.
  Automatically scales all visual elements to the monitor resolution.
 
 Package: syslinuxos-conky-window
-Version: 0.2.8
+Version: 0.2.10
 Architecture: all
 Depends: syslinuxos-conky-menu (>= 0.1.1), conky-all
 Recommends: lsb-release, curl, lm-sensors, x11-utils, x11-xserver-utils
@@ -384,11 +384,11 @@ Homepage: https://syslinuxos.com
 Installed-Size: 80
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.8_all.deb
-Size: 8068
-SHA256: 9b5ec7843f7f39e81ad0a7381e303c7865011e8f7cd53b6a472185a00ce45122
-SHA1: a355e80fabbccaecc66e3b95e3285b6b348dd04c
-MD5sum: e01795010f80699d15acaab3c7dc0611
+Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.10_all.deb
+Size: 8064
+SHA256: 9c2677d46d7d8dd2acc1c6ba5a4470abd2d9ae9af6b5903b9d79087d35d3959f
+SHA1: bdfab345cf90cf20f037309edcce5b9b8cd5370f
+MD5sum: 4bd1250560079d5ac4a14fe0385575a4
 Description: Standard Conky window theme for SysLinuxOS
  System monitor panel (CPU per-core, top processes, memory, filesystem,
  network) integrated into the System Tools > Conky menu of SysLinuxOS.
@@ -552,7 +552,7 @@ Description: Btrfs snapshots + GRUB integration for SysLinuxOS
  but prints a warning and does not touch the configuration.
 
 Package: syslinuxos-system-three
-Version: 0.1.1
+Version: 0.1.2
 Architecture: all
 Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, python3-gi, gir1.2-gdkpixbuf-2.0, librsvg2-common, syslinuxos-conky-menu (>= 0.1.1)
 Recommends: desktop-base, x11-xserver-utils, x11-utils
@@ -561,11 +561,11 @@ Homepage: https://github.com/fconidi/syslinuxos-system-three
 Installed-Size: 100
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-system-three/syslinuxos-system-three_0.1.1_all.deb
-Size: 11508
-SHA256: da2a72ae4e28467c4f4d6733a9872229f473e73e6e462be79511a7f2288c032f
-SHA1: 2c2e1e0dbf745b39c9006f92cd507f94d42f8f9c
-MD5sum: 5dfe111d646354ddd8ddacf66c002b89
+Filename: pool/main/s/syslinuxos-system-three/syslinuxos-system-three_0.1.2_all.deb
+Size: 11552
+SHA256: e73d6acc74aeb8117cc1a522bdfae9cd80c6399f9ec6c9a0f10feda1b5b9b08f
+SHA1: 388e287f18a3ee1331f3269eb09088b427859ab6
+MD5sum: 405a5f3212b6f728f2c61e1b5ac23ab8
 Description: Transparent SysLinuxOS-System-Three desktop monitor
  Distribution logo, digital clock and cyan rings for battery, CPU,
  storage, memory and network information.
