@@ -300,7 +300,7 @@ Description: Shared desktop submenu for SysLinuxOS Conky themes
  Additional themes can use the X-SysLinuxOS-Conky desktop category.
 
 Package: syslinuxos-conky-ring
-Version: 0.2.7
+Version: 0.2.8
 Architecture: all
 Depends: syslinuxos-conky-menu (>= 0.1.1), conky-all, x11-xserver-utils, python3
 Recommends: x11-utils, curl, lm-sensors
@@ -311,11 +311,11 @@ Homepage: https://github.com/fconidi/syslinuxos-conky-ring
 Installed-Size: 204
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-ring/syslinuxos-conky-ring_0.2.7_all.deb
-Size: 29220
-SHA256: d2a59c66047755c665d5b403b98d5454d6a218fe67482e9e6431a4d0acda3a11
-SHA1: f9836f2bc14ab87b5b4178970751d38e41e6113b
-MD5sum: 27652b37343baa8284eea9dd6d81898f
+Filename: pool/main/s/syslinuxos-conky-ring/syslinuxos-conky-ring_0.2.8_all.deb
+Size: 29224
+SHA256: 40cb88ecb4beb6d47e3818a92211663b67350afff9e45407600229f117b71dc0
+SHA1: 9946af01197005eb33683d79fe545c9d14c6e31c
+MD5sum: f8b18eb9022a132c69386380d0fc6347
 Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Ring-style Conky theme (CPU, RAM, disks, network, clock, battery)
  integrated into the System Tools > Conky menu of SysLinuxOS.
