@@ -614,7 +614,7 @@ Description: WiFi signal analyzer and access point locator for SysLinuxOS
  Includes a simulated demo and a restricted polkit-authorized scan helper.
 
 Package: terminal-router
-Version: 1.1.0
+Version: 1.2.0
 Architecture: all
 Depends: bash, tmux (>= 3.0), python3, tio, terminator
 Recommends: cron
@@ -622,11 +622,11 @@ Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: net
-Filename: pool/main/t/terminal-router/terminal-router_1.1.0_all.deb
-Size: 120812
-SHA256: ad38a850b0bd4648afc0642788edc1e422c042178dc1a9044034a9bd9606977f
-SHA1: b1e517a7bb2c211413c1c6b840f18abba40c0721
-MD5sum: 168fe3b31bddb2509583ce763760bfab
+Filename: pool/main/t/terminal-router/terminal-router_1.2.0_all.deb
+Size: 121036
+SHA256: aec12ea65acbe3510d49bd20c86b7d06137e10528d7761e31beb97772ebdb267
+SHA1: 42032e3446aa05222f6f458cef97f99726a9fa0f
+MD5sum: c2e99857a6500c52e5b27872c8239233
 Description: Terminal Router - tmux session recorder for AI-assisted router work
  Records every interactive terminal session into a per-pane log file under
  ~/.claude-logs, so an AI assistant such as Claude Code can follow a live
@@ -638,7 +638,7 @@ Description: Terminal Router - tmux session recorder for AI-assisted router work
  decides what to run.
  .
  Features:
-  - Independent Terminator widgets for router and live Claude/Codex observer
+  - Independent Terminator widgets for router and live Claude/Codex/agy observer
   - Scrollable 50,000-line history in the assistant terminal
   - tio dependency and serial-console hints for tio, screen and picocom
   - AI follows only the router session, accepts questions and never sends commands
@@ -661,7 +661,7 @@ Description: Terminal Router - tmux session recorder for AI-assisted router work
  install time: the user must explicitly opt in from the menu entry or with
  "terminal-router install", after acknowledging that the log captures whatever
  is printed on screen.
-Installed-Size: 208
+Installed-Size: 296
 
 Package: terminal-system
 Version: 1.3.0
