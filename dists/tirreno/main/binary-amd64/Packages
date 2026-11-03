@@ -282,19 +282,19 @@ Version: 0.1.5
 Installed-Size: 1054
 
 Package: syslinuxos-conky-menu
-Version: 0.1.1
+Version: 0.1.2
 Architecture: all
 Depends: hicolor-icon-theme
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
-Homepage: https://github.com/fconidi/syslinuxos-conky-window
+Homepage: https://github.com/fconidi/syslinuxos-conky-system-four
 Installed-Size: 16
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-menu/syslinuxos-conky-menu_0.1.1_all.deb
-Size: 2584
-SHA256: ff9ab3bf6491ba0962ae6bb83ee0c70082bbd8be1c67d6c2c779d459d51febaf
-SHA1: 8991fa46686d117a845688044e01f965db20ebb9
-MD5sum: 681889161d6d9993e60956f639a04d98
+Filename: pool/main/s/syslinuxos-conky-menu/syslinuxos-conky-menu_0.1.2_all.deb
+Size: 2608
+SHA256: 6e47c014559afea8295c6897536be64fcb31e35ca25111a44fb9c760115d05d4
+SHA1: e7ca067fb7fc7226dd18e7a1a4521f48183d5691
+MD5sum: 2905467460e09a13cb87436563bb002a
 Description: Shared desktop submenu for SysLinuxOS Conky themes
  Groups Conky theme launchers under System Tools > Conky.
  Additional themes can use the X-SysLinuxOS-Conky desktop category.
@@ -372,6 +372,55 @@ Description: Transparent SysLinuxOS-Conky-System-Five desktop monitor
  storage, memory and network information.
  Automatically scales all visual elements to the monitor resolution.
 
+Package: syslinuxos-conky-system-four
+Version: 0.3.0
+Architecture: all
+Depends: syslinuxos-conky-menu (>= 0.1.2), conky-all
+Recommends: lsb-release, curl, lm-sensors, x11-utils, x11-xserver-utils
+Replaces: syslinuxos-conky-window (<< 0.3.0)
+Breaks: syslinuxos-conky-window (<< 0.3.0)
+Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
+Homepage: https://github.com/fconidi/syslinuxos-conky-system-four
+Installed-Size: 80
+Priority: optional
+Section: x11
+Filename: pool/main/s/syslinuxos-conky-system-four/syslinuxos-conky-system-four_0.3.0_all.deb
+Size: 8300
+SHA256: ef051933b2755407b3eb4d470f085176452d63ce237bbd3831a7153dff39fb25
+SHA1: e950c4ba74923799f60a2f4983584ef0494e0835
+MD5sum: 321c2680a132f9d43554ffb6b18cd393
+Description: Transparent Conky-System-Four desktop monitor for SysLinuxOS
+ System monitor panel (CPU per-core, top processes, memory, filesystem,
+ network) integrated into the System Tools > Conky menu of SysLinuxOS.
+ .
+ Auto-scales font sizes, widths and bar dimensions to the screen resolution
+ at startup (reference 1920x1080, override with CONKY_SYSTEM_FOUR_SCALE=<n>).
+ CPU bars follow the logical processor count; above 32, one aggregate bar
+ keeps the panel compact.
+ Configuration template: /etc/conky/conky-system-four.conf.
+
+Package: syslinuxos-conky-system-three
+Version: 0.2.0
+Architecture: all
+Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, python3-gi, gir1.2-gdkpixbuf-2.0, librsvg2-common, syslinuxos-conky-menu (>= 0.1.1)
+Replaces: syslinuxos-system-three (<< 0.2.0)
+Breaks: syslinuxos-system-three (<< 0.2.0)
+Recommends: desktop-base, x11-xserver-utils, x11-utils
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Homepage: https://github.com/fconidi/syslinuxos-conky-system-three
+Installed-Size: 56
+Priority: optional
+Section: x11
+Filename: pool/main/s/syslinuxos-conky-system-three/syslinuxos-conky-system-three_0.2.0_all.deb
+Size: 11956
+SHA256: 2e4ae829305a796a3ffb61d2694363ff50afbb4e4231cd4a75b5ade20e60899f
+SHA1: c8ef0ae5f61fb07e7d9cd1b05703c8034cb7f0b8
+MD5sum: ad8b2ffcb17152364316d0d0e5ef48d1
+Description: Transparent SysLinuxOS-System-Three desktop monitor
+ Distribution logo, digital clock and cyan rings for battery, CPU,
+ storage, memory and network information.
+ Automatically scales all visual elements to the monitor resolution.
+
 Package: syslinuxos-conky-system-two
 Version: 0.1.1
 Architecture: all
@@ -393,31 +442,22 @@ Description: Transparent Conky-System-Two desktop monitor
  Automatically scales all visual elements to the monitor resolution.
 
 Package: syslinuxos-conky-window
-Version: 0.2.10
+Version: 0.3.0
 Architecture: all
-Depends: syslinuxos-conky-menu (>= 0.1.1), conky-all
-Recommends: lsb-release, curl, lm-sensors, x11-utils, x11-xserver-utils
-Replaces: conky-window (<< 0.2.0)
-Breaks: conky-window (<< 0.2.0)
+Depends: syslinuxos-conky-system-four (>= 0.3.0)
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://syslinuxos.com
-Installed-Size: 80
+Installed-Size: 1
 Priority: optional
-Section: x11
-Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.2.10_all.deb
-Size: 8064
-SHA256: 9c2677d46d7d8dd2acc1c6ba5a4470abd2d9ae9af6b5903b9d79087d35d3959f
-SHA1: bdfab345cf90cf20f037309edcce5b9b8cd5370f
-MD5sum: 4bd1250560079d5ac4a14fe0385575a4
-Description: Standard Conky window theme for SysLinuxOS
- System monitor panel (CPU per-core, top processes, memory, filesystem,
- network) integrated into the System Tools > Conky menu of SysLinuxOS.
- .
- Auto-scales font sizes, widths and bar dimensions to the screen resolution
- at startup (reference 1920x1080, override with CONKY_WINDOW_SCALE=<n>).
- CPU bars follow the logical processor count; above 32, one aggregate bar
- keeps the panel compact.
- Configuration template: /etc/conky/conky-window.conf.
+Section: oldlibs
+Filename: pool/main/s/syslinuxos-conky-window/syslinuxos-conky-window_0.3.0_all.deb
+Size: 844
+SHA256: 30d65557a6cefeda48dd1798366ebf6b7c59fea63a0fefeceb79a544b4aa6ada
+SHA1: 76604a30d5079a095589eb286e76c0a4750218bb
+MD5sum: 95f4c5bcbc4b02d8810e969956895a1e
+Description: transitional package, syslinuxos-conky-window is now syslinuxos-conky-system-four
+ This empty package only pulls in syslinuxos-conky-system-four and can be
+ safely removed once the upgrade is complete.
 
 Package: syslinuxos-job-scheduler
 Version: 2026.10.1
@@ -572,24 +612,22 @@ Description: Btrfs snapshots + GRUB integration for SysLinuxOS
  but prints a warning and does not touch the configuration.
 
 Package: syslinuxos-system-three
-Version: 0.1.2
+Version: 0.2.0
 Architecture: all
-Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, python3-gi, gir1.2-gdkpixbuf-2.0, librsvg2-common, syslinuxos-conky-menu (>= 0.1.1)
-Recommends: desktop-base, x11-xserver-utils, x11-utils
+Depends: syslinuxos-conky-system-three (>= 0.2.0)
 Maintainer: Franco Conidi <fconidi@gmail.com>
-Homepage: https://github.com/fconidi/syslinuxos-system-three
-Installed-Size: 100
+Homepage: https://github.com/fconidi/syslinuxos-conky-system-three
+Installed-Size: 1
 Priority: optional
-Section: x11
-Filename: pool/main/s/syslinuxos-system-three/syslinuxos-system-three_0.1.2_all.deb
-Size: 11552
-SHA256: e73d6acc74aeb8117cc1a522bdfae9cd80c6399f9ec6c9a0f10feda1b5b9b08f
-SHA1: 388e287f18a3ee1331f3269eb09088b427859ab6
-MD5sum: 405a5f3212b6f728f2c61e1b5ac23ab8
-Description: Transparent SysLinuxOS-System-Three desktop monitor
- Distribution logo, digital clock and cyan rings for battery, CPU,
- storage, memory and network information.
- Automatically scales all visual elements to the monitor resolution.
+Section: oldlibs
+Filename: pool/main/s/syslinuxos-system-three/syslinuxos-system-three_0.2.0_all.deb
+Size: 844
+SHA256: 0ab15e14abe6cbe875d4809e0f159fada41ee28ec8b6561f7cc71518150374c2
+SHA1: c40045b6f578bc832f22001c1efedf6224fe5efd
+MD5sum: d1602cbc8072b90e202879af7b53d155
+Description: transitional package, syslinuxos-system-three is now syslinuxos-conky-system-three
+ This empty package only pulls in syslinuxos-conky-system-three and can be
+ safely removed once the upgrade is complete.
 
 Package: syslinuxos-wifi-analyzer
 Version: 2026.10.3

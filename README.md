@@ -40,9 +40,11 @@ sudo apt update
 
 | Package | Description |
 |---|---|
-| [`syslinuxos-conky-window`](https://github.com/fconidi/syslinuxos-conky-system-four) | Standard Conky window theme for SysLinuxOS (formerly `conky-window`, kept as transitional package) |
+| [`syslinuxos-conky-system-four`](https://github.com/fconidi/syslinuxos-conky-system-four) | Transparent system-monitor panel docked on the right side of the desktop (formerly `syslinuxos-conky-window`, kept as transitional package) |
 | [`syslinuxos-conky-system`](https://github.com/fconidi/syslinuxos-conky-system) | Transparent tree-style system monitor with automatic display scaling |
 | [`syslinuxos-conky-system-two`](https://github.com/fconidi/syslinuxos-conky-system-two) | Transparent monitor with distribution logo, digital clock and six blue and white sections |
+| [`syslinuxos-conky-system-three`](https://github.com/fconidi/syslinuxos-conky-system-three) | Transparent monitor with distribution logo, digital clock and cyan rings (formerly `syslinuxos-system-three`, kept as transitional package) |
+| [`syslinuxos-conky-system-five`](https://github.com/fconidi/syslinuxos-conky-system-five) | Transparent monitor with blue rings for CPU, RAM, swap, disk and network |
 | `syslinuxos-conky-menu` | Shared System Tools > Conky submenu for Conky themes |
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
