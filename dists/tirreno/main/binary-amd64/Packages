@@ -334,20 +334,20 @@ Description: Ring-style Conky theme for SysLinuxOS with auto-scaling
  Includes check_cpu.service which auto-detects CPU core/thread count at boot.
 
 Package: syslinuxos-conky-system
-Version: 0.1.2
+Version: 0.1.3
 Architecture: all
 Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, syslinuxos-conky-menu (>= 0.1.1)
 Recommends: x11-xserver-utils, x11-utils
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Homepage: https://github.com/fconidi/syslinuxos-conky-system
-Installed-Size: 80
+Installed-Size: 36
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-system/syslinuxos-conky-system_0.1.2_all.deb
-Size: 7208
-SHA256: b52c4a43b7edf5f8145f1898067e5192cfb0db6bfc4f29549ffd3f68455e09ec
-SHA1: dfefdd62684d5d9062b7d498cd81313088643f06
-MD5sum: 80b1dfb8e56ea6a621be969954988d29
+Filename: pool/main/s/syslinuxos-conky-system/syslinuxos-conky-system_0.1.3_all.deb
+Size: 7232
+SHA256: 4947d4e7e1a10fc18177b22e0f2a40ee6a31dd5eaf922ac217db40b2612f3c89
+SHA1: 2641a6e4332d7ba0c3677754f069f54774c8e631
+MD5sum: 1c185bd88832137b846b5663e7de9890
 Description: Transparent Conky-System desktop monitor for SysLinuxOS
  Tree-style system, memory, storage, process and network information.
  Automatically scales its layout to the active display resolution.
@@ -373,7 +373,7 @@ Description: Transparent SysLinuxOS-Conky-System-Five desktop monitor
  Automatically scales all visual elements to the monitor resolution.
 
 Package: syslinuxos-conky-system-four
-Version: 0.3.0
+Version: 0.3.1
 Architecture: all
 Depends: syslinuxos-conky-menu (>= 0.1.2), conky-all
 Recommends: lsb-release, curl, lm-sensors, x11-utils, x11-xserver-utils
@@ -384,11 +384,11 @@ Homepage: https://github.com/fconidi/syslinuxos-conky-system-four
 Installed-Size: 80
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-system-four/syslinuxos-conky-system-four_0.3.0_all.deb
-Size: 8300
-SHA256: ef051933b2755407b3eb4d470f085176452d63ce237bbd3831a7153dff39fb25
-SHA1: e950c4ba74923799f60a2f4983584ef0494e0835
-MD5sum: 321c2680a132f9d43554ffb6b18cd393
+Filename: pool/main/s/syslinuxos-conky-system-four/syslinuxos-conky-system-four_0.3.1_all.deb
+Size: 8284
+SHA256: 28a65a8e6ebcc44fef7b9926c7c2543b1874886325dc19c3845f7ef16e181253
+SHA1: 0577fa58ee86f0ff43d3013ed49afcdb5232c508
+MD5sum: 7b5b065d6f51daf106842f1f3caed980
 Description: Transparent Conky-System-Four desktop monitor for SysLinuxOS
  System monitor panel (CPU per-core, top processes, memory, filesystem,
  network) integrated into the System Tools > Conky menu of SysLinuxOS.
