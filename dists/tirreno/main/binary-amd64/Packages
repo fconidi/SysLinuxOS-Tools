@@ -422,20 +422,20 @@ Description: Transparent SysLinuxOS-System-Three desktop monitor
  Automatically scales all visual elements to the monitor resolution.
 
 Package: syslinuxos-conky-system-two
-Version: 0.1.1
+Version: 0.1.2
 Architecture: all
 Depends: conky-all, python3 (>= 3.10), ca-certificates, fonts-dejavu-core, iproute2, python3-gi, gir1.2-gdkpixbuf-2.0, librsvg2-common, syslinuxos-conky-menu (>= 0.1.1)
 Recommends: desktop-base, x11-xserver-utils, x11-utils
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Homepage: https://github.com/fconidi/syslinuxos-conky-system-two
-Installed-Size: 100
+Installed-Size: 56
 Priority: optional
 Section: x11
-Filename: pool/main/s/syslinuxos-conky-system-two/syslinuxos-conky-system-two_0.1.1_all.deb
-Size: 11152
-SHA256: 6b8e44eecdbcc7f813fc0a23a52c97ecee1cb5bd030dda9a1effebd5ad6839cf
-SHA1: f5c9dfab59ce1a0e53afc143881fd432b591953e
-MD5sum: a02b7ce176369fc6c34abcfbb60a4ac1
+Filename: pool/main/s/syslinuxos-conky-system-two/syslinuxos-conky-system-two_0.1.2_all.deb
+Size: 11188
+SHA256: fa65d16e39aaf51bf7bdf4ddb117f1a36d6ecc7f39f379f5b03646dd3773060a
+SHA1: 6077ccab4747a44ff8754386f4ea2c103fa7dff2
+MD5sum: e913595aa1143044ef9f84135ad11980
 Description: Transparent Conky-System-Two desktop monitor
  Distribution logo, digital clock and modern vector indicators for
  system, CPU, memory, processes, storage and network information.
