@@ -48,7 +48,7 @@ sudo apt update
 | `syslinuxos-conky-menu` | Shared System Tools > Conky submenu for Conky themes |
 | `distroclone` | Universal Live ISO Builder |
 | `distroclone-backup` | Snapper backup for distroClone |
-| `distroflash` | Create Linux and Windows bootable USB media |
+| [`distroflash`](https://github.com/fconidi/DistroFlash) | Create Linux and Windows bootable USB media |
 | [`distromove`](https://github.com/fconidi/DistroMove) | Migrate an installed Linux system to a new partition with boot setup and checks |
 | [`distroclone-usb`](https://github.com/fconidi/distroClone-usb) | Persistent live USB creator with a shared folder and optional encryption |
 | [`file-collector`](https://github.com/fconidi/file-collector) | Gather files scattered across many subfolders into one destination |
@@ -67,7 +67,7 @@ sudo apt update
 | `syslinuxos-snapshots` | Btrfs snapshots and rollback: snapper, snapshots in the GRUB menu and the `syslinuxos-rollback` helper (distributed only through this repository) |
 | [`syslinuxos-network-neighbors`](https://github.com/fconidi/syslinuxos-network-neighbors) | Show the switch, port and VLAN ID directly connected to each interface using LLDP |
 | [`syslinuxos-nvidia-setup`](https://github.com/fconidi/syslinuxos-nvidia-setup) | NVIDIA driver setup with optional CUDA for SysLinuxOS 13 and Debian 13 amd64 |
-| `terminal-router` | tmux session recorder for AI-assisted router work |
+| [`terminal-router`](https://github.com/fconidi/terminal-router) | tmux session recorder for AI-assisted router work |
 | [`terminal-system`](https://github.com/fconidi/terminal-system) | AI-assisted two-panel terminal (natural language -> shell commands) |
 
 Wifi Analyzer guides: [English](https://syslinuxos.com/syslinuxos-wifi-analyzer-installation-usage-guide/) | [Italiano](https://francoconidi.it/syslinuxos-wifi-analyzer-guida-installazione-utilizzo/).
