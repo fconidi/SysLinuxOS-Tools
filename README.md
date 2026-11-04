@@ -55,7 +55,7 @@ sudo apt update
 | `grub-btrfs` | Btrfs snapshots in the GRUB menu (SysLinuxOS build) |
 | [`librepods`](https://github.com/librepods-org/librepods) | AirPods control application for Linux |
 | [`landiscovery`](https://github.com/fconidi/landiscovery) | Discover local hosts, services and inferred network paths with scan history and comparison |
-| [`syslinuxos-boot`](https://github.com/fconidi/syslinuxos/tree/master/boot-options) | Graphical GRUB menu settings and Plymouth splash configuration for installed SysLinuxOS systems |
+| [`syslinuxos-boot`](https://github.com/fconidi/syslinuxos-boot) | Graphical GRUB menu settings and Plymouth splash configuration for installed SysLinuxOS systems |
 | `syslinuxos-boot-repair` | Graphical GRUB boot repair from a SysLinuxOS Live session |
 | [`syslinuxos-care`](https://github.com/fconidi/syslinuxos-care) | Desktop system monitoring, cleanup and maintenance |
 | [`syslinuxos-anonimo`](https://github.com/fconidi/syslinuxos-anonimo) | Routes all TCP and DNS traffic through Tor with one click (own nftables table and Tor instance) |
