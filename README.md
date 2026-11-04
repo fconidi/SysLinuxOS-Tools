@@ -46,8 +46,8 @@ sudo apt update
 | [`syslinuxos-conky-system-three`](https://github.com/fconidi/syslinuxos-conky-system-three) | Transparent monitor with distribution logo, digital clock and cyan rings (formerly `syslinuxos-system-three`, kept as transitional package) |
 | [`syslinuxos-conky-system-five`](https://github.com/fconidi/syslinuxos-conky-system-five) | Transparent monitor with blue rings for CPU, RAM, swap, disk and network |
 | `syslinuxos-conky-menu` | Shared System Tools > Conky submenu for Conky themes |
-| `distroclone` | Universal Live ISO Builder |
-| `distroclone-backup` | Snapper backup for distroClone |
+| [`distroclone`](https://github.com/fconidi/distroClone) | Universal Live ISO Builder |
+| [`distroclone-backup`](https://github.com/fconidi/distroClone-backup) | Snapper backup for distroClone |
 | [`distroflash`](https://github.com/fconidi/DistroFlash) | Create Linux and Windows bootable USB media |
 | [`distromove`](https://github.com/fconidi/DistroMove) | Migrate an installed Linux system to a new partition with boot setup and checks |
 | [`distroclone-usb`](https://github.com/fconidi/distroClone-usb) | Persistent live USB creator with a shared folder and optional encryption |
