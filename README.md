@@ -65,6 +65,7 @@ sudo apt update
 | [`syslinuxos-conky-ring`](https://github.com/fconidi/syslinuxos-conky-ring) | Ring-style Conky theme with auto-scaling |
 | [`syslinuxos-wifi-analyzer`](https://github.com/fconidi/syslinuxos-wifi-analyzer) | WiFi access point discovery, signal tracking and audible proximity feedback |
 | `syslinuxos-snapshots` | Btrfs snapshots and rollback: snapper, snapshots in the GRUB menu and the `syslinuxos-rollback` helper (distributed only through this repository) |
+| [`syslinuxos-network-neighbors`](https://github.com/fconidi/syslinuxos-network-neighbors) | Show the switch, port and VLAN ID directly connected to each interface using LLDP |
 | [`syslinuxos-nvidia-setup`](https://github.com/fconidi/syslinuxos-nvidia-setup) | NVIDIA driver setup with optional CUDA for SysLinuxOS 13 and Debian 13 amd64 |
 | `terminal-router` | tmux session recorder for AI-assisted router work |
 | [`terminal-system`](https://github.com/fconidi/terminal-system) | AI-assisted two-panel terminal (natural language -> shell commands) |
