@@ -773,3 +773,20 @@ Description: AI-assisted two-panel terminal (natural language -> shell commands)
  as a .deb on this system.
 Installed-Size: 252
 
+Package: vlanmanager
+Version: 0.1.1
+Architecture: all
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, network-manager, iputils-ping
+Priority: optional
+Section: net
+Filename: pool/main/v/vlanmanager/vlanmanager_0.1.1_all.deb
+Size: 67668
+SHA256: c0798463d92b29a2676806c2ffcb2b6d9c8fe3ec43c2c6c0a4648600054150c4
+SHA1: 9e86ccef7afd62a4b2bea6b2938a46eb86e53d0f
+MD5sum: 043909e4e0bb8ad6d6dcb6ed72342764
+Description: Create and manage 802.1Q VLANs on wired interfaces
+ VlanManager is a graphical tool to add VLANs to a wired network
+ interface through NetworkManager, with DHCP or static addressing,
+ a reachability check and automatic revert of unconfirmed changes.
+
