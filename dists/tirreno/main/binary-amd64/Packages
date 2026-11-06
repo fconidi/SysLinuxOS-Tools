@@ -209,18 +209,18 @@ Description: Include btrfs snapshots in GRUB boot menu
  SysLinuxOS-specific build for Debian trixie. Upstream version 4.14.
 
 Package: landiscovery
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, python3-gi-cairo, nmap, arp-scan, polkitd | policykit-1
 Recommends: avahi-utils, snmp
 Priority: optional
 Section: net
-Filename: pool/main/l/landiscovery/landiscovery_1.0.2_all.deb
-Size: 50996
-SHA256: 0241f346f0b725e4ecb4b7e075c38f3fc702b6f1a85c8142fd96bc2314e12f3c
-SHA1: d19430cd459e7e10fd388886a36fa53f2f3537ac
-MD5sum: d20d668599cc7d0939861522f18c24db
+Filename: pool/main/l/landiscovery/landiscovery_1.0.3_all.deb
+Size: 54140
+SHA256: 105f5c8565325010a2226fd593405b2f2d4321f35447aafc458a2b480dfc1be0
+SHA1: f002766a0048a122a008356e0f05f4076bd4ba85
+MD5sum: 182792e36c3cc0dd48946ed65f5edcd8
 Description: Discover hosts, services and inferred network paths
  LAN Discovery provides a graphical network scanner with history,
  inventory, comparison and export.
