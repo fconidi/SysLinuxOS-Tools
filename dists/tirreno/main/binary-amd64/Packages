@@ -811,17 +811,17 @@ Description: TFTP, DHCP and syslog servers for network equipment
  closes.
 
 Package: vlanmanager
-Version: 0.1.1
+Version: 0.1.2
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, network-manager, iputils-ping
 Priority: optional
 Section: net
-Filename: pool/main/v/vlanmanager/vlanmanager_0.1.1_all.deb
-Size: 67668
-SHA256: c0798463d92b29a2676806c2ffcb2b6d9c8fe3ec43c2c6c0a4648600054150c4
-SHA1: 9e86ccef7afd62a4b2bea6b2938a46eb86e53d0f
-MD5sum: 043909e4e0bb8ad6d6dcb6ed72342764
+Filename: pool/main/v/vlanmanager/vlanmanager_0.1.2_all.deb
+Size: 68988
+SHA256: f6e0247c4d8b023b1cd04d2020a608434502d361201e21f29a6160f3927c3769
+SHA1: 5eddd4188c62daf95c09a1149c181c3891557ca2
+MD5sum: a821087b0d926f343a0bb68c8e8baa46
 Description: Create and manage 802.1Q VLANs on wired interfaces
  VlanManager is a graphical tool to add VLANs to a wired network
  interface through NetworkManager, with DHCP or static addressing,
