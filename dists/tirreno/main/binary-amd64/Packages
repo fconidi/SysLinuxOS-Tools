@@ -16,6 +16,24 @@ Description: transitional package, conky-window is now syslinuxos-conky-window
  This empty package only pulls in syslinuxos-conky-window and can be safely
  removed once the upgrade is complete.
 
+Package: dhcp-gui
+Version: 0.1.3
+Architecture: all
+Maintainer: Franco Conidi <fconidi@gmail.com>
+Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, pkexec | policykit-1, kea-dhcp4-server, iproute2
+Priority: optional
+Section: net
+Filename: pool/main/d/dhcp-gui/dhcp-gui_0.1.3_all.deb
+Size: 41492
+SHA256: 4a961bf28472ea64dafff46e6cadfb8ed34520cb75618531fee377928c46eb32
+SHA1: a55c268bb393e4135bf591defeabed1fc6241872
+MD5sum: da772e7752daea5b3b9573486bf9cad5
+Description: Graphical manager for the Kea DHCPv4 server
+ Dhcp-GUI configures and manages the Kea DHCPv4 server installed on this
+ computer: subnet, address pool, gateway, DNS, static reservations and PXE
+ options, with a preview of the change, backup and automatic restore if a change
+ fails. Changes are made by a small helper authorized through polkit.
+
 Package: distroclone
 Version: 1.4.11
 Architecture: all

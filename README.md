@@ -41,6 +41,7 @@ sudo apt update
 | Package | Description |
 |---|---|
 | [`ethtool-gui`](https://github.com/fconidi/ethtool-GUI) | Inspect and configure Ethernet interfaces with link safeguards and diagnostics |
+| [`dhcp-gui`](https://github.com/fconidi/Dhcp-GUI) | Configure and control a Kea DHCPv4 server with safe apply and lease overview |
 | [`tftpd-gui`](https://github.com/fconidi/Tftpd-GUI) | TFTP server and client, temporary DHCP server and syslog collector |
 | [`syslinuxos-conky-system-four`](https://github.com/fconidi/syslinuxos-conky-system-four) | Transparent system-monitor panel docked on the right side of the desktop (formerly `syslinuxos-conky-window`, kept as transitional package) |
 | [`syslinuxos-conky-system`](https://github.com/fconidi/syslinuxos-conky-system) | Transparent tree-style system monitor with automatic display scaling |
