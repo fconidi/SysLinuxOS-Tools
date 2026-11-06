@@ -130,20 +130,20 @@ Description: Migrate a running Debian-based system to new partitions
  Native GTK wizard with privileged storage and boot setup.
 
 Package: ethtool-gui
-Version: 0.1.4
+Version: 0.1.5
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, ethtool, pkexec | policykit-1, systemd
 Recommends: network-manager
 Priority: optional
 Section: net
-Filename: pool/main/e/ethtool-gui/ethtool-gui_0.1.4_all.deb
-Size: 72140
-SHA256: 74fea39fb11ecb0bbdab1b56b5fa053506fc8583c3b4699fee1901549d855eec
-SHA1: 2156e752c172d9ff9e914f80ad19ea0ff66614c4
-MD5sum: 516ec971b6b355a82b2e4344b5130617
+Filename: pool/main/e/ethtool-gui/ethtool-gui_0.1.5_all.deb
+Size: 72236
+SHA256: 81661e3b76fdadbcc982205e2a87ca4a402f90068cc21892f5ca68641afb232e
+SHA1: c4ba6137fabd6af03e97df2c2cbcc1fa2846c7c9
+MD5sum: ab436e2abeef0b4d5e69f310322aafd6
 Description: Graphical interface for Ethernet diagnostics and settings
- ethtool-GUI shows link state, driver information, counters and optical
+ Ethtool-GUI shows link state, driver information, counters and optical
  diagnostics. It can change supported Ethernet settings, test a cable and
  save selected settings for boot. Link changes have a timed restore safeguard.
 
