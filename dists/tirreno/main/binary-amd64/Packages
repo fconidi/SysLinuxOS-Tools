@@ -535,17 +535,17 @@ Description: Graphical job scheduling for SysLinuxOS
  Independently maintained by SysLinuxOS; distributed under GPL-3+.
 
 Package: syslinuxos-network-neighbors
-Version: 0.1.3
+Version: 0.1.4
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-3.0, pkexec, lldpd
 Priority: optional
 Section: net
-Filename: pool/main/s/syslinuxos-network-neighbors/syslinuxos-network-neighbors_0.1.3_all.deb
-Size: 18968
-SHA256: 61b3253863d472b42d9f09474587dc84d7231e190a04a5556c25283c332b3b6e
-SHA1: 6031f9e220f25254ec12529f09cc6ce7e40f4115
-MD5sum: c83d47c005598e58d40b7bf6eb123ffb
+Filename: pool/main/s/syslinuxos-network-neighbors/syslinuxos-network-neighbors_0.1.4_all.deb
+Size: 19312
+SHA256: f8eb058ab9c19e2ea15188b8bd2e6d437e6d197e5c3cdfcfbf40a8f792a6706e
+SHA1: 53bdca4a4dfdfdf62d16eed6cf11ecc04c85dcfb
+MD5sum: 0cd44430c1318525abf4147c64b1db66
 Description: Graphical viewer for directly connected LLDP neighbors
  Shows the local interface, neighbor name, remote port, advertised VLAN ID
  and LLDP details.
@@ -810,17 +810,17 @@ Description: AI-assisted two-panel terminal (natural language -> shell commands)
 Installed-Size: 252
 
 Package: tftpd-gui
-Version: 0.1.0
+Version: 0.1.1
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, pkexec | policykit-1
 Priority: optional
 Section: net
-Filename: pool/main/t/tftpd-gui/tftpd-gui_0.1.0_all.deb
-Size: 50928
-SHA256: 547336aa3467610cb5769bc8d9f991649cf13735b079a7bd6697e447b7d09cd1
-SHA1: d83f0827e09b4a9eaef3541015372bd82917d9a5
-MD5sum: 8e00f78579d9c8eae7c351b4a29c6ef2
+Filename: pool/main/t/tftpd-gui/tftpd-gui_0.1.1_all.deb
+Size: 51364
+SHA256: c37c9b5190d79b59d0b594b089778d568932415d4291dcedb90d987be1062de0
+SHA1: c7fec9df2b433a1f55df8b9e2b1e1b9b4bdcc224
+MD5sum: 319b1ecc9a748bca5c7ab1d9275d11cb
 Description: TFTP, DHCP and syslog servers for network equipment
  Tftpd-GUI is a graphical tool that puts a TFTP server and client, a staging
  DHCP server and a syslog collector in one window. It is meant for technicians
