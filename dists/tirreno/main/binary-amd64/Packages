@@ -299,18 +299,18 @@ Description: graphical boot settings for installed SysLinuxOS systems
  Plymouth splash settings. Based on MX Boot Options by the MX Linux authors.
 
 Package: syslinuxos-boot-repair
-Version: 0.3.3
+Version: 0.3.4
 Architecture: amd64
 Depends: bash (>= 5), mount, sudo, efibootmgr, mawk | gawk, python3, python3-gi, gir1.2-gtk-3.0, pkexec, cryptsetup-bin, udisks2
 Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://syslinuxos.com
 Priority: optional
 Section: admin
-Filename: pool/main/s/syslinuxos-boot-repair/syslinuxos-boot-repair_0.3.3_amd64.deb
-Size: 27604
-SHA256: b1b9b9fc80f17d4dcb776808df33641ee478b2fa933eba188346e4c8f11307e5
-SHA1: 9bbb465913b606ab6be0acf88f1e23a17e9558a1
-MD5sum: 131b6c3abd04d2aaaf673c0a6d65a829
+Filename: pool/main/s/syslinuxos-boot-repair/syslinuxos-boot-repair_0.3.4_amd64.deb
+Size: 33288
+SHA256: 62274566084c916d189d37546eee71e5804226f5176164dbcd5529dea9b8dc6c
+SHA1: 62da2a204af9d4bd6bd4cdf0f94db660a8413a64
+MD5sum: 81eca1970ce84e36f5f7990dc672bfe2
 Description: repair an installed SysLinuxOS GRUB bootloader from a Live session
  Inspects a selected SysLinuxOS installation read-only before any change.
  Can regenerate GRUB configuration or reinstall GRUB for BIOS and 64-bit UEFI.
