@@ -166,17 +166,17 @@ Description: Graphical interface for Ethernet diagnostics and settings
  save selected settings for boot. Link changes have a timed restore safeguard.
 
 Package: file-collector
-Version: 0.2.0
+Version: 0.2.1
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-3.0, librsvg2-common
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, librsvg2-common
 Priority: optional
 Section: utils
-Filename: pool/main/f/file-collector/file-collector_0.2.0_all.deb
-Size: 71056
-SHA256: ad404648402698979527f47f9bfe762e43d6b4ae64fe93ad9cf278b8f0e98c55
-SHA1: d1cd3b0678e144f3db89609330b3a3d7484400c5
-MD5sum: b08a8f531e3b53d4f19c682d4db4cc1b
+Filename: pool/main/f/file-collector/file-collector_0.2.1_all.deb
+Size: 113660
+SHA256: cf2c955b86336882a2996e7a9834628da19a3af255b3f6d7c9db4ec08c78af01
+SHA1: 10b5251926539d162105e49b9d1d591bcd8dcbdc
+MD5sum: 34704e387fe4c9bb59e8bc4271f43bcc
 Description: Gather files from subfolders into one destination
  Native desktop application with recursive search, collection previews,
  non-overwriting moves and assisted restore.
