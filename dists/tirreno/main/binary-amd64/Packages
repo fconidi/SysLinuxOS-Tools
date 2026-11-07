@@ -92,19 +92,19 @@ Description: DistroClone Backup & Restore Tool
 Installed-Size: 408
 
 Package: distroclone-usb
-Version: 0.3.1
+Version: 0.3.2
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
-Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-3.0, librsvg2-common, xorriso, fdisk, e2fsprogs, dosfstools, grub-common, grub2-common, grub-pc-bin, grub-efi-amd64-bin, udev, pkexec, polkitd, udisks2, cryptsetup-bin, initramfs-tools-core
+Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-3.0, librsvg2-common, xorriso, fdisk, e2fsprogs, dosfstools, grub-common, grub2-common, grub-pc-bin, grub-efi-amd64-bin, udev, pkexec | policykit-1, polkitd | policykit-1, udisks2, cryptsetup-bin, initramfs-tools-core
 Recommends: policykit-1-gnome | polkit-kde-agent-1 | mate-polkit, adwaita-icon-theme
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: admin
-Filename: pool/main/d/distroclone-usb/distroclone-usb_0.3.1_all.deb
-Size: 54256
-SHA256: 69f23b4e5f289da028935e541a95f1e9f9c786e18e45dec4277f3289c2168689
-SHA1: 373a3fcd74f532c5a87991263c03c7706d1492f7
-MD5sum: 6f374d9bc85f9a639e162603fb8dec35
+Filename: pool/main/d/distroclone-usb/distroclone-usb_0.3.2_all.deb
+Size: 51772
+SHA256: e1122216a8bbf0b6cbb698b1caada8e6887d0752d3645069894471d1aec3f4a2
+SHA1: 4451b53dd0ebf2d7f83e2f9fcf0d974d8182b9a5
+MD5sum: 4752a448437128359d6de57195b0b483
 Description: Create persistent live USB drives from Debian and Ubuntu desktop ISOs
  Graphical companion to distroClone and distroclone-backup.
  Creates GPT USB media with BIOS and unsigned x86-64 UEFI boot,
