@@ -722,19 +722,19 @@ Description: WiFi signal analyzer and access point locator for SysLinuxOS
  Includes a simulated demo and a restricted polkit-authorized scan helper.
 
 Package: terminal-router
-Version: 1.2.0
+Version: 1.2.1
 Architecture: all
 Depends: bash, tmux (>= 3.0), python3, tio, terminator
 Recommends: cron
-Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
+Maintainer: Franco Conidi <fconidi@gmail.com>
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: net
-Filename: pool/main/t/terminal-router/terminal-router_1.2.0_all.deb
-Size: 121036
-SHA256: aec12ea65acbe3510d49bd20c86b7d06137e10528d7761e31beb97772ebdb267
-SHA1: 42032e3446aa05222f6f458cef97f99726a9fa0f
-MD5sum: c2e99857a6500c52e5b27872c8239233
+Filename: pool/main/t/terminal-router/terminal-router_1.2.1_all.deb
+Size: 122428
+SHA256: 0ba361f2bd05c174cd7d7c39a22b7e876360a6453ff4997da13d6cb865bc7a21
+SHA1: d31697c2fc979532cd56e7ba7f297b4bba289fa9
+MD5sum: f74e0f9fe7c8638ec50440628dd4c042
 Description: Terminal Router - tmux session recorder for AI-assisted router work
  Records every interactive terminal session into a per-pane log file under
  ~/.claude-logs, so an AI assistant such as Claude Code can follow a live
@@ -749,7 +749,8 @@ Description: Terminal Router - tmux session recorder for AI-assisted router work
   - Independent Terminator widgets for router and live Claude/Codex/agy observer
   - Scrollable 50,000-line history in the assistant terminal
   - tio dependency and serial-console hints for tio, screen and picocom
-  - AI follows only the router session, accepts questions and never sends commands
+  - AI follows only the router session, accepts questions and sends commands
+    only in the optional guarded configuration mode, after a one-time code
   - Dedicated tmux server keeps the assistant session out of captured logs
   - Every interactive terminal enters its own tmux session automatically
   - "terminal-router launch" logs a single self-contained session instead,
@@ -769,7 +770,7 @@ Description: Terminal Router - tmux session recorder for AI-assisted router work
  install time: the user must explicitly opt in from the menu entry or with
  "terminal-router install", after acknowledging that the log captures whatever
  is printed on screen.
-Installed-Size: 296
+Installed-Size: 300
 
 Package: terminal-system
 Version: 1.4.0
