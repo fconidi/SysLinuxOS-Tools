@@ -132,18 +132,18 @@ Description: Create Linux and Windows bootable USB media
  Native GTK image writer with readback verification and Windows UEFI support.
 
 Package: distromove
-Version: 0.1.25
+Version: 0.1.28
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, cryptsetup, rsync, btrfs-progs (>= 6.1), e2fsprogs, dosfstools, parted, util-linux, efibootmgr, grub-efi-amd64-bin, grub-efi-amd64-signed, shim-signed, mokutil, pkexec, polkitd, gdisk, udev, initramfs-tools, dmsetup, procps, findutils
 Homepage: https://github.com/fconidi/DistroMove
 Priority: optional
 Section: utils
-Filename: pool/main/d/distromove/distromove_0.1.25_all.deb
-Size: 113164
-SHA256: ee52a8414aaf9c04fe3916be133ca73283c73d541d6833e3a8184067841abba0
-SHA1: 3674fb85fd3f733e39b59dc4bf3ab38b46b6a584
-MD5sum: 337e56f393bd52831c8952892c8264da
+Filename: pool/main/d/distromove/distromove_0.1.28_all.deb
+Size: 113488
+SHA256: b9c37b102b4233163fd4d9b507dfbb24cf95232bf4c241862c5be21044a45b70
+SHA1: 7d00c2a1b491d3c8a30f5fd45a9fa65027fa35f8
+MD5sum: 94de960e5f0ac95b7f13463fd3456fdb
 Description: Migrate a running Debian-based system to new partitions
  Native GTK wizard with privileged storage and boot setup.
 
