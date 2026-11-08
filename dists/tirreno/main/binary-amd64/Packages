@@ -45,10 +45,10 @@ Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: admin
 Filename: pool/main/d/distroclone/distroclone_1.4.13_all.deb
-Size: 2095668
-SHA256: e839a8993f950d62539622759894f6cd5fcc16525559bf9e09094dbaabf7d464
-SHA1: bc868f80ef8e91808ea42f22bf4afcf60624c200
-MD5sum: 1da0501503869c2a53742d2c17e05f6f
+Size: 2095600
+SHA256: 88794b505d00d870fff4370f59199cc2df2bbd1c44718d6ddae61c10a49f1d27
+SHA1: 8b65fdd515977cfb2853c70e2d962da8b72f74bb
+MD5sum: 94319c95821f42a9292aa15239e836cc
 Description: DistroClone - Universal Live ISO Builder
  Create customized bootable live ISO images from any running
  Debian-based system (Debian, Ubuntu, Linux Mint, Elementary OS,
