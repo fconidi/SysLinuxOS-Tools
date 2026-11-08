@@ -255,7 +255,7 @@ Description: AirPods control application for Linux
  Built from source for SysLinuxOS by Franco Conidi.
 
 Package: syslinuxos-anonimo
-Version: 2026.10.2
+Version: 2026.10.3
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.11), python3-pyqt5 (>= 5.15), libqt5svg5, tor, obfs4proxy, nftables, pkexec, adduser
@@ -264,11 +264,11 @@ Homepage: https://syslinuxos.com/
 Installed-Size: 228
 Priority: optional
 Section: net
-Filename: pool/main/s/syslinuxos-anonimo/syslinuxos-anonimo_2026.10.2_all.deb
-Size: 38104
-SHA256: 7d1cff6be6a2969b7f4ef6190be110af8f144c0ec2c4f6844714e0f0c517f21f
-SHA1: 7806abef46f703a4feeb568f0ab4b4552ca6907d
-MD5sum: dd2cd1f85f3e009a35f3970afe6562b5
+Filename: pool/main/s/syslinuxos-anonimo/syslinuxos-anonimo_2026.10.3_all.deb
+Size: 38228
+SHA256: d6d06fafe4d6c6ce90507e3c1e61646b84bf5b954eaea42fe1e0a48d918f578b
+SHA1: cc2551a2977639dd84107751023b8a47cae5c5bb
+MD5sum: 877069169312878ec3a258d5436b39dc
 Description: route TCP and DNS traffic of the computer through Tor
  SysLinuxOS Anonimo sends every TCP connection and every DNS query of the
  computer through Tor. Everything else leaving the computer is blocked, except
