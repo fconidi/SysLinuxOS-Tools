@@ -6,35 +6,35 @@ Label: SysLinuxOS-Tools
 Suite: tirreno
 Codename: tirreno
 Version: 13
-Date: Sun, 08 Nov 2026 20:38:20 UTC
+Date: Sun, 08 Nov 2026 23:39:08 UTC
 Architectures: amd64
 Components: main
 Description: SysLinuxOS Tools - official APT repository (SysLinuxOS packages)
 MD5Sum:
- 63f6183a270f5a70646c8c19b046d582 38868 main/binary-amd64/Packages
- c2dfac5db8700024212099c67ca7c3c8 13493 main/binary-amd64/Packages.gz
+ bdb7c4d6a1ee3cba18cf99c76795fb04 38868 main/binary-amd64/Packages
+ 84952787e31f0d79493b9ae4c4b717f5 13486 main/binary-amd64/Packages.gz
  a0219dce73fcc36abf487cea3e4cd440 186 main/binary-amd64/Release
 SHA1:
- 490a5f10c8f32ebad76d1996f9208c0f1361280b 38868 main/binary-amd64/Packages
- 926fd6da5cf42dd3566bcca93cecc2325c04ed47 13493 main/binary-amd64/Packages.gz
+ 73e7309c983a3b01c1e13c7e55526bdb8ed5f274 38868 main/binary-amd64/Packages
+ abb7b6375756589bb2321e9c4ade34c11c436773 13486 main/binary-amd64/Packages.gz
  f437fc4b7972a69ae4d0ee32531e58615251b34f 186 main/binary-amd64/Release
 SHA256:
- 0860797127c41532843b92d0e64b1efb852c3cb37ca72bf5de2204cec7d78b94 38868 main/binary-amd64/Packages
- b67ed745ca3b56bbfc97c75bcf6dbd0401d71e2507cadbeaa8d07ff299a7698d 13493 main/binary-amd64/Packages.gz
+ 484ee169416105792a7f96ec0d5a421d5309a364245eb0fee0b90a47af7992ab 38868 main/binary-amd64/Packages
+ 277abb18d2baaab879bcfb09eec079f4f7fb6977d52a2d25e586432340d5eb30 13486 main/binary-amd64/Packages.gz
  6e0d29238d718a52a8b8c325beac1a80a661b4f90eed6fe30a7634c4ec8a7bcb 186 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEFf8UYf8D5nAByK6MX63K9FvD+h0FAmrw3bwACgkQX63K9FvD
-+h2vsA/8DZFhAnNZSsB1eAl/TvrcqDdQsPZDVrjpHfmyOLtmvkA5mLIBBq232BXQ
-yQnaAQRaXJPG1AGPj/ValF/8CgBptvh+ASlmLNhcc/jYbDY1fRRiCp7kxUKX864M
-MKrTbu4GY0Bd5Fxkfs1peGLzqxAbkgsd2Evn+mqC+eJKOghkXTS0SHfUXZHhuGks
-holwlyorCs4Cb34olkq+OMbvj5RoRIcetPiBkkVbIYfU+WO+oxUDligimCQs2sSj
-2Z4pEf1opvU4PgEFh4NgjLrOGraT3pz/4SPI8r2RnlwntbAIxevi2AbKP9rY9C6Q
-OEvq5uxxcF4FHCJeMtMibRw0LaIZm0Zss61e+bwnYN+XMdX+G7V0LwCIFUEEC91y
-8EgHGfN8STIgHzFoCMYVMY9Z7Vl14Ds9D9aLMNMChzLEyb1xxg2TZ0LU0RKO1OLH
-SqEZl75UMhmwl0KZ/qdNeWutHPTSbN+s74z5M2iYgAwzWkNBQnjjwHJ8RdB4cP3i
-vodho7ZKWJMMZwCoXudWQ72ZUe9M+E03GZv+MIVeoUxUruD5o2u4CVXRTI41nn40
-CMImBlsGW/AOClpHCYbpE3JPZeCKtT7HOT94Vb9FH1t7SjU1MS6MjocDWf6+r0tO
-qRr6U5IqbvF3IEkkSpig+kkcJa7DuIcrEMlrHDHemot1E3Vz5zg=
-=qUo9
+iQIzBAEBCgAdFiEEFf8UYf8D5nAByK6MX63K9FvD+h0FAmrxCB0ACgkQX63K9FvD
++h3cxg/8C/e3dlefIfSxanh9DwSESbSsJjdHRQNwXZMNz5nbWBhccl7demCQk+7Q
+JSJ3UixQXgF0jLHuCKYyJm/+uzTmL6pP+TqD67/Vz/+pL/UShfrh8s65NR0KhPZP
++EQz9gmZG8aRzqVB4JoWWFz8eIZkwwbGq1n78SVzN4w9UShiYOrYKLEoQMg/nek1
+HQEE78R+TOYWxC+91yzYjfM19uJO20n6iV1PtSYZ4Fw+kR1hPEQvarrlJC4dWDJ/
+MdagrhS9EQuPmqjsZ4NaffCs+CjyF1jRFXKoEFbWrByvuTyhqNeEwZXuggR/IPPs
+SIKNcKnKl1bg0gz5NK9ftRih4767J8ygqpWlyNqYJpNuYotELqNG+MOqGceYz0ZJ
+IqxADy4yWnsrCf4mK2xaDkjHoEhgxKQttzlno5oO1XZNHGbKEBgsXPESU1a91blY
+V0wN0S3GEBmHF6BWHbMHG9lnbVWyI566Ux6QYJ0FVRlynRc2GXPkOxaq086FHcpW
+CNbSWYCduHHumF0Z2lAst2j+jYa0tJseaDWA1rI1lBhrh3JLOY+U/zkPXbvDiIaF
+R7Ojo3IeeH1AB9JKjifeTtwBqok1G4Rn1UON/sCx7lSwu3DFauoUw3KIdoOrcRAD
+wmozI1MVf2x/qyokueqw7k5q6ydh59ceXr4x13wVrkW9bsqOFz4=
+=2IE8
 -----END PGP SIGNATURE-----

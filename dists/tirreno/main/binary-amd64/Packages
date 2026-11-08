@@ -811,17 +811,17 @@ Description: AI-assisted two-panel terminal (natural language -> shell commands)
 Installed-Size: 272
 
 Package: tftpd-gui
-Version: 0.1.1
+Version: 0.1.2
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, pkexec | policykit-1
 Priority: optional
 Section: net
-Filename: pool/main/t/tftpd-gui/tftpd-gui_0.1.1_all.deb
-Size: 51364
-SHA256: c37c9b5190d79b59d0b594b089778d568932415d4291dcedb90d987be1062de0
-SHA1: c7fec9df2b433a1f55df8b9e2b1e1b9b4bdcc224
-MD5sum: 319b1ecc9a748bca5c7ab1d9275d11cb
+Filename: pool/main/t/tftpd-gui/tftpd-gui_0.1.2_all.deb
+Size: 52744
+SHA256: 161675c2058a07d5bc962ab0d2cb67294e9fb835f70537548b50bedecb848f03
+SHA1: 9c1c99eebc21cf8a0702dd38ad586279834a0c26
+MD5sum: d8da6874ef7443114c352d397f618968
 Description: TFTP, DHCP and syslog servers for network equipment
  Tftpd-GUI is a graphical tool that puts a TFTP server and client, a staging
  DHCP server and a syslog collector in one window. It is meant for technicians
