@@ -66,30 +66,30 @@ Description: DistroClone - Universal Live ISO Builder
 Installed-Size: 2724
 
 Package: distroclone-backup
-Version: 1.4.0
+Version: 1.4.1
 Architecture: all
 Depends: yad, rsync, pkexec, util-linux, cron
 Recommends: distroclone, btrfs-progs, snapper, libnotify-bin
 Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Priority: optional
 Section: admin
-Filename: pool/main/d/distroclone-backup/distroclone-backup_1.4.0_all.deb
-Size: 218876
-SHA256: fe1271b69b81b03de506f2fa339901dc8261df2c6f6f78b0bf5009d9e36af445
-SHA1: 97919461ad6a78978da39e955bca6830500edfe6
-MD5sum: f448cce38d28e91cc1d9898053fab817
+Filename: pool/main/d/distroclone-backup/distroclone-backup_1.4.1_all.deb
+Size: 218372
+SHA256: 9578cafdbae07c072fda921596dfc61402f5ed4f010f7e89992f7eb9fa6dd178
+SHA1: b360ed8cee7cb73db1d7e22101930be48f426126
+MD5sum: d265a8f42da0b20ed571a0e602e8aae9
 Description: DistroClone Backup & Restore Tool
  Incremental rootfs backup and restore tool for Debian-based systems.
  Companion tool for DistroClone.
  .
- Runs through polkit; no passwordless sudo rules are installed. The cache
- is checked before a restore and other mounted filesystems are never
+ Runs through polkit; no passwordless sudo rules are installed. Other
+ mounted filesystems are never
  touched. On btrfs cache filesystems, versioning is managed through a
  dedicated snapper config ("distroclone-backup"); other filesystems use
  plain rsync without versioning.
  .
  Supports: English, Italiano, Deutsch, Français, Español, Русский.
-Installed-Size: 408
+Installed-Size: 404
 
 Package: distroclone-usb
 Version: 0.3.2
