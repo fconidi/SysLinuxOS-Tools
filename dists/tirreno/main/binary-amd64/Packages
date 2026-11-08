@@ -226,20 +226,20 @@ Description: Discover hosts, services and inferred network paths
  inventory, comparison and export.
 
 Package: librepods
-Version: 0.1.1
+Version: 0.1.2
 Architecture: amd64
 Depends: libc6, libqt6bluetooth6, libqt6core6t64, libqt6dbus6, libqt6gui6, libqt6network6, libqt6qml6, libqt6quick6, libqt6widgets6, libpulse0, libssl3t64, bluetooth
 Recommends: wireplumber
 Maintainer: Franco Conidi (edmond) <fconidi@gmail.com>
 Homepage: https://github.com/librepods-org/librepods
-Installed-Size: 2840
+Installed-Size: 2864
 Priority: optional
 Section: sound
-Filename: pool/main/libr/librepods/librepods_0.1.1_amd64.deb
-Size: 1296748
-SHA256: 11ce9b4f73a2944413842570e9998c8c5860b634964a4d2be64d055f8e4d8670
-SHA1: 817354c1e84c93c34020f5f00e674cd819971503
-MD5sum: cf0f744df19a7b099ee64c24aee7c444
+Filename: pool/main/libr/librepods/librepods_0.1.2_amd64.deb
+Size: 1295588
+SHA256: 3c25db432c7ad8bb2e4f3dc6dbeb422d6e89b228262bef403d89982900c80b6e
+SHA1: 762000ea462c0e22df8339b99966729a8da9087f
+MD5sum: 6d4f31e11d8c371ce239972df865e1e6
 Description: AirPods control application for Linux
  LibrePods implements the proprietary Apple protocol used to exchange
  data between AirPods and Apple devices, enabling full AirPods
