@@ -700,7 +700,7 @@ Description: transitional package, syslinuxos-system-three is now syslinuxos-con
  safely removed once the upgrade is complete.
 
 Package: syslinuxos-wifi-analyzer
-Version: 2026.11.2
+Version: 2026.11.3
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.10), python3-pyqt5 (>= 5.15), python3-pyqt5.qtmultimedia, iw (>= 5.9), pkexec
@@ -711,11 +711,11 @@ Homepage: https://github.com/fconidi/syslinuxos-wifi-analyzer
 Installed-Size: 232
 Priority: optional
 Section: net
-Filename: pool/main/s/syslinuxos-wifi-analyzer/syslinuxos-wifi-analyzer_2026.11.2_all.deb
-Size: 32380
-SHA256: cf54edd3d187dd00bb825c56a4fd3295a510ea153c249c716e6720ed6feac883
-SHA1: 37b689018cdcec0d2e4f58e44fe6da900a899b40
-MD5sum: a11ad3af2b80d9619c5a39f0b3f4669a
+Filename: pool/main/s/syslinuxos-wifi-analyzer/syslinuxos-wifi-analyzer_2026.11.3_all.deb
+Size: 32628
+SHA256: 314b4a4d8b54095057f07740dcdb17493d432a7265ccb9d7d55d18257c0ef4b5
+SHA1: d51b7fd1b506cc0815f0aea94ebb7b4e67bdacbf
+MD5sum: 5a369b0cd28fc8fab40c8e577aeb9e6f
 Description: WiFi signal analyzer and access point locator for SysLinuxOS
  Discover WiFi radios and track a selected BSSID using a signal gauge,
  recent history, peak measurements and adjustable audible feedback.
