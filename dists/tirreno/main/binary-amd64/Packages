@@ -35,7 +35,7 @@ Description: Graphical manager for the Kea DHCPv4 server
  fails. Changes are made by a small helper authorized through polkit.
 
 Package: distroclone
-Version: 1.4.14
+Version: 1.4.15
 Architecture: all
 Depends: bash, rsync, xorriso, mtools, syslinux-utils, syslinux-common, isolinux, imagemagick
 Recommends: yad, zenity, grub-efi-amd64, efibootmgr, calamares, calamares-settings-debian, os-prober, fdisk, live-boot, live-config, live-config-systemd
@@ -44,11 +44,11 @@ Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: admin
-Filename: pool/main/d/distroclone/distroclone_1.4.14_all.deb
-Size: 2095760
-SHA256: b2e88689a62f6261dd4e41ab3e70b8a024bb1b1780d9bf45e7ecb00783ba672e
-SHA1: 66b33b2580f1e706631bbcd9e76a408274aa77ae
-MD5sum: 8aae07b1e0f0bc944f8a3b3d51c3922d
+Filename: pool/main/d/distroclone/distroclone_1.4.15_all.deb
+Size: 2096380
+SHA256: 0507ed511da743af3da7bfb0a5d36d4ffb0a82811934eb8706a4bd4838d89827
+SHA1: e980f6eb38589838b3467fc33395d7ec99f62563
+MD5sum: fcdfd8096840b791f499443305f73cf8
 Description: DistroClone - Universal Live ISO Builder
  Create customized bootable live ISO images from any running
  Debian-based system (Debian, Ubuntu, Linux Mint, Elementary OS,
@@ -92,7 +92,7 @@ Description: DistroClone Backup & Restore Tool
 Installed-Size: 404
 
 Package: distroclone-usb
-Version: 0.3.2
+Version: 0.3.3
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.10), python3-gi, gir1.2-gtk-3.0, librsvg2-common, xorriso, fdisk, e2fsprogs, dosfstools, grub-common, grub2-common, grub-pc-bin, grub-efi-amd64-bin, udev, pkexec | policykit-1, polkitd | policykit-1, udisks2, cryptsetup-bin, initramfs-tools-core
@@ -100,11 +100,11 @@ Recommends: policykit-1-gnome | polkit-kde-agent-1 | mate-polkit, adwaita-icon-t
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: admin
-Filename: pool/main/d/distroclone-usb/distroclone-usb_0.3.2_all.deb
-Size: 51772
-SHA256: e1122216a8bbf0b6cbb698b1caada8e6887d0752d3645069894471d1aec3f4a2
-SHA1: 4451b53dd0ebf2d7f83e2f9fcf0d974d8182b9a5
-MD5sum: 4752a448437128359d6de57195b0b483
+Filename: pool/main/d/distroclone-usb/distroclone-usb_0.3.3_all.deb
+Size: 52044
+SHA256: 9fda7ffb83f9c514dd5f49fe342745e00cd926137b674619f0679566738a1102
+SHA1: 9e4dc72b3d7d44cf03b0011fd2da210ce4d16051
+MD5sum: 62ef58ef6e4d9fc4d0a55284be33156b
 Description: Create persistent live USB drives from Debian and Ubuntu desktop ISOs
  Graphical companion to distroClone and distroclone-backup.
  Creates GPT USB media with BIOS and unsigned x86-64 UEFI boot,
