@@ -35,7 +35,7 @@ Description: Graphical manager for the Kea DHCPv4 server
  fails. Changes are made by a small helper authorized through polkit.
 
 Package: distroclone
-Version: 1.4.16
+Version: 1.4.17
 Architecture: all
 Depends: bash, rsync, xorriso, mtools, syslinux-utils, syslinux-common, isolinux, imagemagick
 Recommends: yad, zenity, grub-efi-amd64, efibootmgr, calamares, calamares-settings-debian, os-prober, fdisk, live-boot, live-config, live-config-systemd
@@ -44,11 +44,11 @@ Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: admin
-Filename: pool/main/d/distroclone/distroclone_1.4.16_all.deb
-Size: 2097404
-SHA256: 7ccfeb0ff1fa8f5dc6a1d885125ed845648e55e73250d740859e48d8c9dbafd1
-SHA1: f56e234ad2560de492401c30bbaf5cb482807465
-MD5sum: 371d2f89ec3bcaf6861e3da9e57253f0
+Filename: pool/main/d/distroclone/distroclone_1.4.17_all.deb
+Size: 2097768
+SHA256: 217a2494ad4fae16d1a0556f4364c0bcde367b90188e84f96288f2ad6f8cc0d4
+SHA1: 0d7c905eeb4ebbeb0bd395df5b2d3a595316c038
+MD5sum: cca07848716a8a9c8e4abd1629a8a9b0
 Description: DistroClone - Universal Live ISO Builder
  Create customized bootable live ISO images from any running
  Debian-based system (Debian, Ubuntu, Linux Mint, Elementary OS,
