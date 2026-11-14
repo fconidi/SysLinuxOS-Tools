@@ -35,7 +35,7 @@ Description: Graphical manager for the Kea DHCPv4 server
  fails. Changes are made by a small helper authorized through polkit.
 
 Package: distroclone
-Version: 1.4.17
+Version: 1.4.18
 Architecture: all
 Depends: bash, rsync, xorriso, mtools, syslinux-utils, syslinux-common, isolinux, imagemagick
 Recommends: yad, zenity, grub-efi-amd64, efibootmgr, calamares, calamares-settings-debian, os-prober, fdisk, live-boot, live-config, live-config-systemd
@@ -44,11 +44,11 @@ Maintainer: Franco Conidi aka edmond <fconidi@gmail.com>
 Homepage: https://www.syslinuxos.com
 Priority: optional
 Section: admin
-Filename: pool/main/d/distroclone/distroclone_1.4.17_all.deb
-Size: 2097768
-SHA256: 217a2494ad4fae16d1a0556f4364c0bcde367b90188e84f96288f2ad6f8cc0d4
-SHA1: 0d7c905eeb4ebbeb0bd395df5b2d3a595316c038
-MD5sum: cca07848716a8a9c8e4abd1629a8a9b0
+Filename: pool/main/d/distroclone/distroclone_1.4.18_all.deb
+Size: 2097432
+SHA256: b59f3dcdda01945b4c211248c2786953014cd6d416324d5675e44b780efbc7cc
+SHA1: c5ab1f4024102753e8749d73de352f11acf2370d
+MD5sum: 2f553d09c045ac1df662b15ab04d993b
 Description: DistroClone - Universal Live ISO Builder
  Create customized bootable live ISO images from any running
  Debian-based system (Debian, Ubuntu, Linux Mint, Elementary OS,
@@ -115,7 +115,7 @@ Description: Create persistent live USB drives from Debian and Ubuntu desktop IS
  Requires Secure Boot to be disabled. MX/antiX is not yet supported.
 
 Package: distroflash
-Version: 0.2.3
+Version: 0.2.4
 Architecture: all
 Maintainer: Franco Conidi <fconidi@gmail.com>
 Depends: python3 (>= 3.11), python3-gi, gir1.2-gtk-3.0, udisks2 (>= 2.9), util-linux, dosfstools, ntfs-3g, wimtools
@@ -123,11 +123,11 @@ Recommends: polkit-1-auth-agent
 Homepage: https://github.com/fconidi/DistroFlash
 Priority: optional
 Section: utils
-Filename: pool/main/d/distroflash/distroflash_0.2.3_all.deb
-Size: 127876
-SHA256: ee355762fbe848f1c2c9cd311db86223314989f02281c701916ecd71026e673f
-SHA1: e176801e14f32af8801b94e741228a2523d3a149
-MD5sum: 29ab5112997b69679a4b51d89702c42b
+Filename: pool/main/d/distroflash/distroflash_0.2.4_all.deb
+Size: 128044
+SHA256: 727b32d66b9107dde7ebc8a9d59fba38f017f9c4dd721ae3667a8905e3a166d7
+SHA1: aca76668e20f0c6f0212d264e9dd086d5a119a4f
+MD5sum: 81d20c57c861b92802fa1d393c80787b
 Description: Create Linux and Windows bootable USB media
  Native GTK image writer with readback verification and Windows UEFI support.
 
